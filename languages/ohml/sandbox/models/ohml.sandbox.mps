@@ -5,7 +5,37 @@
     <use id="27a2b522-2610-408a-ab92-b094842ed001" name="ohml" version="0" />
     <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="1" />
   </languages>
-  <imports />
-  <registry />
+  <imports>
+    <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+  </imports>
+  <registry>
+    <language id="27a2b522-2610-408a-ab92-b094842ed001" name="ohml">
+      <concept id="1049114778041420476" name="ohml.structure.Resistance" flags="ng" index="7iFVD">
+        <property id="1049114778041445693" name="value" index="7iH_C" />
+        <child id="1049114778041438985" name="unit" index="7iIts" />
+      </concept>
+      <concept id="1049114778041439053" name="ohml.structure.Ohm" flags="ng" index="7iIso" />
+      <concept id="1049114778041370663" name="ohml.structure.Resistor" flags="ng" index="7iZLM">
+        <child id="1049114778041422793" name="resistance" index="7iEus" />
+      </concept>
+      <concept id="1049114778041318490" name="ohml.structure.Circuit" flags="ng" index="7jcwf">
+        <child id="1049114778041326440" name="component" index="7iMWX" />
+      </concept>
+    </language>
+    <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+        <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+    </language>
+  </registry>
+  <node concept="7jcwf" id="Ufd5k9L8qB">
+    <property role="TrG5h" value="test circuit" />
+    <node concept="7iZLM" id="Ufd5k9Lv8_" role="7iMWX">
+      <node concept="7iFVD" id="Ufd5k9Lv8A" role="7iEus">
+        <property role="7iH_C" value="3.5" />
+        <node concept="7iIso" id="Ufd5k9Lv8I" role="7iIts" />
+      </node>
+    </node>
+  </node>
 </model>
 

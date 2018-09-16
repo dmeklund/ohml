@@ -10,12 +10,22 @@ import org.jetbrains.mps.openapi.language.SAbstractConcept;
 public final class LanguageConceptSwitch {
   private final LanguageConceptIndex myIndex;
   public static final int Circuit = 0;
-  public static final int ComponentGraph = 1;
+  public static final int Component = 1;
+  public static final int ComponentGraph = 2;
+  public static final int Ohm = 3;
+  public static final int Resistance = 4;
+  public static final int ResistanceUnit = 5;
+  public static final int Resistor = 6;
 
   public LanguageConceptSwitch() {
     LanguageConceptIndexBuilder builder = new LanguageConceptIndexBuilder(0x27a2b5222610408aL, 0xab92b094842ed001L);
     builder.put(0xe8f345509c3fc5aL, Circuit);
+    builder.put(0xe8f345509c486a9L, Component);
     builder.put(0xe8f345509c41b6dL, ComponentGraph);
+    builder.put(0xe8f345509c5d34dL, Ohm);
+    builder.put(0xe8f345509c58abcL, Resistance);
+    builder.put(0xe8f345509c5d30eL, ResistanceUnit);
+    builder.put(0xe8f345509c4c827L, Resistor);
     myIndex = builder.seal();
   }
 

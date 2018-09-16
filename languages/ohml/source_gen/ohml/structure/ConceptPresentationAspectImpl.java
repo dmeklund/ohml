@@ -10,7 +10,12 @@ import jetbrains.mps.smodel.runtime.ConceptPresentationBuilder;
 
 public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase {
   private ConceptPresentation props_Circuit;
+  private ConceptPresentation props_Component;
   private ConceptPresentation props_ComponentGraph;
+  private ConceptPresentation props_Ohm;
+  private ConceptPresentation props_Resistance;
+  private ConceptPresentation props_ResistanceUnit;
+  private ConceptPresentation props_Resistor;
 
   @Override
   @Nullable
@@ -24,6 +29,12 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_Circuit = cpb.create();
         }
         return props_Circuit;
+      case LanguageConceptSwitch.Component:
+        if (props_Component == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          props_Component = cpb.create();
+        }
+        return props_Component;
       case LanguageConceptSwitch.ComponentGraph:
         if (props_ComponentGraph == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
@@ -31,6 +42,33 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_ComponentGraph = cpb.create();
         }
         return props_ComponentGraph;
+      case LanguageConceptSwitch.Ohm:
+        if (props_Ohm == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("ohm");
+          props_Ohm = cpb.create();
+        }
+        return props_Ohm;
+      case LanguageConceptSwitch.Resistance:
+        if (props_Resistance == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("Resistance");
+          props_Resistance = cpb.create();
+        }
+        return props_Resistance;
+      case LanguageConceptSwitch.ResistanceUnit:
+        if (props_ResistanceUnit == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          props_ResistanceUnit = cpb.create();
+        }
+        return props_ResistanceUnit;
+      case LanguageConceptSwitch.Resistor:
+        if (props_Resistor == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.presentationByName();
+          props_Resistor = cpb.create();
+        }
+        return props_Resistor;
     }
     return null;
   }

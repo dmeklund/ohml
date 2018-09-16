@@ -13,7 +13,12 @@ import jetbrains.mps.smodel.runtime.impl.ConceptDescriptorBuilder2;
 
 public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptCircuit = createDescriptorForCircuit();
+  /*package*/ final ConceptDescriptor myConceptComponent = createDescriptorForComponent();
   /*package*/ final ConceptDescriptor myConceptComponentGraph = createDescriptorForComponentGraph();
+  /*package*/ final ConceptDescriptor myConceptOhm = createDescriptorForOhm();
+  /*package*/ final ConceptDescriptor myConceptResistance = createDescriptorForResistance();
+  /*package*/ final ConceptDescriptor myConceptResistanceUnit = createDescriptorForResistanceUnit();
+  /*package*/ final ConceptDescriptor myConceptResistor = createDescriptorForResistor();
   private final LanguageConceptSwitch myIndexSwitch;
 
   public StructureAspectDescriptor() {
@@ -22,7 +27,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
 
   @Override
   public Collection<ConceptDescriptor> getDescriptors() {
-    return Arrays.asList(myConceptCircuit, myConceptComponentGraph);
+    return Arrays.asList(myConceptCircuit, myConceptComponent, myConceptComponentGraph, myConceptOhm, myConceptResistance, myConceptResistanceUnit, myConceptResistor);
   }
 
   @Override
@@ -31,8 +36,18 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     switch (myIndexSwitch.index(id)) {
       case LanguageConceptSwitch.Circuit:
         return myConceptCircuit;
+      case LanguageConceptSwitch.Component:
+        return myConceptComponent;
       case LanguageConceptSwitch.ComponentGraph:
         return myConceptComponentGraph;
+      case LanguageConceptSwitch.Ohm:
+        return myConceptOhm;
+      case LanguageConceptSwitch.Resistance:
+        return myConceptResistance;
+      case LanguageConceptSwitch.ResistanceUnit:
+        return myConceptResistanceUnit;
+      case LanguageConceptSwitch.Resistor:
+        return myConceptResistor;
       default:
         return null;
     }
@@ -48,8 +63,16 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.parent(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L);
     b.origin("r:66cd426c-b834-475f-8a3d-d7e3518c2104(ohml.structure)/1049114778041318490");
     b.version(2);
-    b.aggregate("body", 0xe8f345509c41b68L).target(0x27a2b5222610408aL, 0xab92b094842ed001L, 0xe8f345509c41b6dL).optional(false).ordered(true).multiple(false).origin("1049114778041326440").done();
+    b.aggregate("component", 0xe8f345509c41b68L).target(0x27a2b5222610408aL, 0xab92b094842ed001L, 0xe8f345509c486a9L).optional(true).ordered(true).multiple(true).origin("1049114778041326440").done();
     b.alias("circuit");
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForComponent() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("ohml", "Component", 0x27a2b5222610408aL, 0xab92b094842ed001L, 0xe8f345509c486a9L);
+    b.class_(false, true, false);
+    b.parent(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L);
+    b.origin("r:66cd426c-b834-475f-8a3d-d7e3518c2104(ohml.structure)/1049114778041353897");
+    b.version(2);
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForComponentGraph() {
@@ -58,6 +81,42 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.parent(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L);
     b.origin("r:66cd426c-b834-475f-8a3d-d7e3518c2104(ohml.structure)/1049114778041326445");
     b.version(2);
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForOhm() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("ohml", "Ohm", 0x27a2b5222610408aL, 0xab92b094842ed001L, 0xe8f345509c5d34dL);
+    b.class_(false, false, false);
+    b.super_("ohml.structure.ResistanceUnit", 0x27a2b5222610408aL, 0xab92b094842ed001L, 0xe8f345509c5d30eL);
+    b.origin("r:66cd426c-b834-475f-8a3d-d7e3518c2104(ohml.structure)/1049114778041439053");
+    b.version(2);
+    b.alias("ohm");
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForResistance() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("ohml", "Resistance", 0x27a2b5222610408aL, 0xab92b094842ed001L, 0xe8f345509c58abcL);
+    b.class_(false, false, false);
+    b.origin("r:66cd426c-b834-475f-8a3d-d7e3518c2104(ohml.structure)/1049114778041420476");
+    b.version(2);
+    b.prop("value", 0xe8f345509c5ed3dL, "1049114778041445693");
+    b.aggregate("unit", 0xe8f345509c5d309L).target(0x27a2b5222610408aL, 0xab92b094842ed001L, 0xe8f345509c5d30eL).optional(false).ordered(true).multiple(false).origin("1049114778041438985").done();
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForResistanceUnit() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("ohml", "ResistanceUnit", 0x27a2b5222610408aL, 0xab92b094842ed001L, 0xe8f345509c5d30eL);
+    b.class_(false, true, false);
+    b.origin("r:66cd426c-b834-475f-8a3d-d7e3518c2104(ohml.structure)/1049114778041438990");
+    b.version(2);
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForResistor() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("ohml", "Resistor", 0x27a2b5222610408aL, 0xab92b094842ed001L, 0xe8f345509c4c827L);
+    b.class_(false, false, false);
+    b.super_("ohml.structure.Component", 0x27a2b5222610408aL, 0xab92b094842ed001L, 0xe8f345509c486a9L);
+    b.parent(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L);
+    b.origin("r:66cd426c-b834-475f-8a3d-d7e3518c2104(ohml.structure)/1049114778041370663");
+    b.version(2);
+    b.aggregate("resistance", 0xe8f345509c593c9L).target(0x27a2b5222610408aL, 0xab92b094842ed001L, 0xe8f345509c58abcL).optional(false).ordered(true).multiple(false).origin("1049114778041422793").done();
+    b.alias("resistor");
     return b.create();
   }
 }
