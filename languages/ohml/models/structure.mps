@@ -40,6 +40,9 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
@@ -93,24 +96,24 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="resistance" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="Ufd5k9LoEW" resolve="Resistance" />
+      <ref role="20lvS9" node="Ufd5k9Ltce" resolve="ResistanceUnit" />
     </node>
   </node>
   <node concept="1TIwiD" id="Ufd5k9LoEW">
     <property role="EcuMT" value="1049114778041420476" />
     <property role="TrG5h" value="Resistance" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="Ufd5k9Ltc9" role="1TKVEi">
-      <property role="IQ2ns" value="1049114778041438985" />
+    <node concept="1TJgyi" id="Ufd5k9LY73" role="1TKVEl">
+      <property role="IQ2nx" value="1049114778041573827" />
+      <property role="TrG5h" value="value" />
+      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+    </node>
+    <node concept="1TJgyj" id="Ufd5k9LY76" role="1TKVEi">
+      <property role="IQ2ns" value="1049114778041573830" />
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="unit" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="Ufd5k9Ltce" resolve="ResistanceUnit" />
-    </node>
-    <node concept="1TJgyi" id="Ufd5k9LuOX" role="1TKVEl">
-      <property role="IQ2nx" value="1049114778041445693" />
-      <property role="TrG5h" value="value" />
-      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
     </node>
   </node>
   <node concept="1TIwiD" id="Ufd5k9Ltce">
@@ -118,13 +121,67 @@
     <property role="TrG5h" value="ResistanceUnit" />
     <property role="R5$K7" value="true" />
     <property role="R5$K2" value="false" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <property role="3GE5qa" value="unit" />
+    <ref role="1TJDcQ" node="Ufd5k9LA_g" resolve="Unit" />
   </node>
   <node concept="1TIwiD" id="Ufd5k9Ltdd">
     <property role="EcuMT" value="1049114778041439053" />
     <property role="TrG5h" value="Ohm" />
     <property role="34LRSv" value="ohm" />
+    <property role="3GE5qa" value="unit" />
     <ref role="1TJDcQ" node="Ufd5k9Ltce" resolve="ResistanceUnit" />
+  </node>
+  <node concept="1TIwiD" id="Ufd5k9LA_f">
+    <property role="EcuMT" value="1049114778041477455" />
+    <property role="3GE5qa" value="unit" />
+    <property role="TrG5h" value="VoltageUnit" />
+    <property role="R5$K7" value="true" />
+    <property role="R5$K2" value="false" />
+    <ref role="1TJDcQ" node="Ufd5k9LA_g" resolve="Unit" />
+  </node>
+  <node concept="1TIwiD" id="Ufd5k9LA_g">
+    <property role="EcuMT" value="1049114778041477456" />
+    <property role="3GE5qa" value="unit" />
+    <property role="TrG5h" value="Unit" />
+    <property role="R5$K7" value="true" />
+    <property role="R5$K2" value="false" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="Ufd5k9M0oc" role="1TKVEl">
+      <property role="IQ2nx" value="1049114778041583116" />
+      <property role="TrG5h" value="value" />
+      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="Ufd5k9LA_h">
+    <property role="EcuMT" value="1049114778041477457" />
+    <property role="3GE5qa" value="unit" />
+    <property role="TrG5h" value="Volt" />
+    <property role="34LRSv" value="volt" />
+    <ref role="1TJDcQ" node="Ufd5k9LA_f" resolve="VoltageUnit" />
+  </node>
+  <node concept="1TIwiD" id="Ufd5k9LA_l">
+    <property role="EcuMT" value="1049114778041477461" />
+    <property role="TrG5h" value="Voltage" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+  </node>
+  <node concept="1TIwiD" id="Ufd5k9LA_m">
+    <property role="EcuMT" value="1049114778041477462" />
+    <property role="TrG5h" value="UnitValue" />
+    <property role="R5$K7" value="true" />
+    <property role="R5$K2" value="false" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="Ufd5k9LA_$" role="1TKVEl">
+      <property role="IQ2nx" value="1049114778041477476" />
+      <property role="TrG5h" value="value" />
+      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+    </node>
+    <node concept="1TJgyj" id="Ufd5k9LA_B" role="1TKVEi">
+      <property role="IQ2ns" value="1049114778041477479" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="unit" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="Ufd5k9LA_g" resolve="Unit" />
+    </node>
   </node>
 </model>
 

@@ -10,9 +10,8 @@
   </imports>
   <registry>
     <language id="27a2b522-2610-408a-ab92-b094842ed001" name="ohml">
-      <concept id="1049114778041420476" name="ohml.structure.Resistance" flags="ng" index="7iFVD">
-        <property id="1049114778041445693" name="value" index="7iH_C" />
-        <child id="1049114778041438985" name="unit" index="7iIts" />
+      <concept id="1049114778041477456" name="ohml.structure.Unit" flags="ng" index="7ilO5">
+        <property id="1049114778041583116" name="value" index="7hN9p" />
       </concept>
       <concept id="1049114778041439053" name="ohml.structure.Ohm" flags="ng" index="7iIso" />
       <concept id="1049114778041370663" name="ohml.structure.Resistor" flags="ng" index="7iZLM">
@@ -30,10 +29,14 @@
   </registry>
   <node concept="7jcwf" id="Ufd5k9L8qB">
     <property role="TrG5h" value="test circuit" />
-    <node concept="7iZLM" id="Ufd5k9Lv8_" role="7iMWX">
-      <node concept="7iFVD" id="Ufd5k9Lv8A" role="7iEus">
-        <property role="7iH_C" value="3.5" />
-        <node concept="7iIso" id="Ufd5k9Lv8I" role="7iIts" />
+    <node concept="7iZLM" id="Ufd5k9M2Ls" role="7iMWX">
+      <node concept="7iIso" id="Ufd5k9M2Ly" role="7iEus">
+        <property role="7hN9p" value="3.5" />
+      </node>
+    </node>
+    <node concept="7iZLM" id="Ufd5k9M4X0" role="7iMWX">
+      <node concept="7iIso" id="Ufd5k9M4Xv" role="7iEus">
+        <property role="7hN9p" value="2.2" />
       </node>
     </node>
   </node>

@@ -16,6 +16,11 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   private ConceptPresentation props_Resistance;
   private ConceptPresentation props_ResistanceUnit;
   private ConceptPresentation props_Resistor;
+  private ConceptPresentation props_Unit;
+  private ConceptPresentation props_UnitValue;
+  private ConceptPresentation props_Volt;
+  private ConceptPresentation props_Voltage;
+  private ConceptPresentation props_VoltageUnit;
 
   @Override
   @Nullable
@@ -69,6 +74,38 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_Resistor = cpb.create();
         }
         return props_Resistor;
+      case LanguageConceptSwitch.Unit:
+        if (props_Unit == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          props_Unit = cpb.create();
+        }
+        return props_Unit;
+      case LanguageConceptSwitch.UnitValue:
+        if (props_UnitValue == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          props_UnitValue = cpb.create();
+        }
+        return props_UnitValue;
+      case LanguageConceptSwitch.Volt:
+        if (props_Volt == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("volt");
+          props_Volt = cpb.create();
+        }
+        return props_Volt;
+      case LanguageConceptSwitch.Voltage:
+        if (props_Voltage == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("Voltage");
+          props_Voltage = cpb.create();
+        }
+        return props_Voltage;
+      case LanguageConceptSwitch.VoltageUnit:
+        if (props_VoltageUnit == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          props_VoltageUnit = cpb.create();
+        }
+        return props_VoltageUnit;
     }
     return null;
   }

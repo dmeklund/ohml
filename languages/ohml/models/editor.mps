@@ -16,6 +16,7 @@
         <child id="1140524464360" name="cellLayout" index="2czzBx" />
       </concept>
       <concept id="1237303669825" name="jetbrains.mps.lang.editor.structure.CellLayout_Indent" flags="nn" index="l2Vlx" />
+      <concept id="1237307900041" name="jetbrains.mps.lang.editor.structure.IndentLayoutIndentStyleClassItem" flags="ln" index="lj46D" />
       <concept id="1237308012275" name="jetbrains.mps.lang.editor.structure.IndentLayoutNewLineStyleClassItem" flags="ln" index="ljvvj" />
       <concept id="1237375020029" name="jetbrains.mps.lang.editor.structure.IndentLayoutNewLineChildrenStyleClassItem" flags="ln" index="pj6Ft" />
       <concept id="1080736578640" name="jetbrains.mps.lang.editor.structure.BaseEditorComponent" flags="ig" index="2wURMF">
@@ -49,6 +50,11 @@
         <reference id="1166049300910" name="conceptDeclaration" index="1XX52x" />
       </concept>
     </language>
+    <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+      </concept>
+    </language>
   </registry>
   <node concept="24kQdi" id="Ufd5k9KZLz">
     <ref role="1XX52x" to="sfys:Ufd5k9KZLq" resolve="Circuit" />
@@ -66,6 +72,9 @@
         <ref role="1NtTu8" to="sfys:Ufd5k9L1HC" resolve="component" />
         <node concept="l2Vlx" id="Ufd5k9L9oF" role="2czzBx" />
         <node concept="pj6Ft" id="Ufd5k9L9oQ" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="lj46D" id="Ufd5k9M2Nl" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
       </node>
@@ -101,7 +110,7 @@
         </node>
       </node>
       <node concept="3F0A7n" id="Ufd5k9Lwem" role="3EZMnx">
-        <ref role="1NtTu8" to="sfys:Ufd5k9LuOX" resolve="value" />
+        <ref role="1NtTu8" to="sfys:Ufd5k9LY73" resolve="value" />
       </node>
       <node concept="3F0ifn" id="Ufd5k9Ltcs" role="3EZMnx">
         <property role="3F0ifm" value="," />
@@ -119,7 +128,7 @@
         </node>
       </node>
       <node concept="3F1sOY" id="Ufd5k9Ltcx" role="3EZMnx">
-        <ref role="1NtTu8" to="sfys:Ufd5k9Ltc9" resolve="unit" />
+        <ref role="1NtTu8" to="sfys:Ufd5k9LY76" resolve="unit" />
       </node>
       <node concept="3F0ifn" id="Ufd5k9Ltcy" role="3EZMnx">
         <property role="3F0ifm" value=")" />
@@ -133,12 +142,16 @@
     </node>
   </node>
   <node concept="24kQdi" id="Ufd5k9Ltde">
+    <property role="3GE5qa" value="unit" />
     <ref role="1XX52x" to="sfys:Ufd5k9Ltdd" resolve="Ohm" />
-    <node concept="3EZMnI" id="Ufd5k9Ltdg" role="2wV5jI">
-      <node concept="3F0ifn" id="Ufd5k9Ltdq" role="3EZMnx">
+    <node concept="3EZMnI" id="Ufd5k9M0pi" role="2wV5jI">
+      <node concept="3F0A7n" id="Ufd5k9M0pw" role="3EZMnx">
+        <ref role="1NtTu8" to="sfys:Ufd5k9M0oc" resolve="value" />
+      </node>
+      <node concept="3F0ifn" id="Ufd5k9M0rd" role="3EZMnx">
         <property role="3F0ifm" value="ohm" />
       </node>
-      <node concept="l2Vlx" id="Ufd5k9Ltdj" role="2iSdaV" />
+      <node concept="l2Vlx" id="Ufd5k9M0pl" role="2iSdaV" />
     </node>
   </node>
   <node concept="24kQdi" id="Ufd5k9Ltd_">
