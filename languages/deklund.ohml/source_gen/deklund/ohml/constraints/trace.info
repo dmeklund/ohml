@@ -1,19 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debug-info version="2">
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
   <root>
     <file name="ConstraintsAspectDescriptor.java">
-      <unit at="13,0,29,0" name="deklund.ohml.constraints.ConstraintsAspectDescriptor" />
+      <unit at="13,0,31,0" name="deklund.ohml.constraints.ConstraintsAspectDescriptor" />
     </file>
   </root>
   <root nodeRef="r:f022e1da-67d3-47de-b86f-b8f02c2a6f10(deklund.ohml.constraints)/1049114778041477495">
     <file name="Resistance_Constraints.java">
-      <node id="1049114778041477495" at="9,35,10,140" concept="1" />
+      <node id="1049114778041477495" at="9,35,10,140" concept="9" />
       <node id="1049114778041477495" at="9,0,12,0" concept="0" trace="Resistance_Constraints#()V" />
       <scope id="1049114778041477495" at="9,35,10,140" />
       <scope id="1049114778041477495" at="9,0,12,0" />
       <unit id="1049114778041477495" at="8,0,14,0" name="deklund.ohml.constraints.Resistance_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:f022e1da-67d3-47de-b86f-b8f02c2a6f10(deklund.ohml.constraints)/1049114778041863472">
+    <file name="Resistor_Constraints.java">
+      <node id="1049114778041863472" at="20,33,21,138" concept="9" />
+      <node id="1049114778041863472" at="28,128,29,133" concept="4" />
+      <node id="1049114778041863472" at="29,133,30,0" concept="6" />
+      <node id="1049114778041863472" at="31,55,32,72" concept="1" />
+      <node id="1049114778041863472" at="33,9,34,0" concept="6" />
+      <node id="1049114778041863472" at="34,0,35,22" concept="5" />
+      <node id="1049114778041926777" at="39,128,40,520" concept="5" />
+      <node id="1049114778041863472" at="42,0,43,0" concept="7" trace="canBeParentBreakingPoint" />
+      <node id="1049114778041863472" at="20,0,23,0" concept="0" trace="Resistor_Constraints#()V" />
+      <node id="1049114778041863472" at="30,0,33,9" concept="2" />
+      <node id="1049114778041863472" at="39,0,42,0" concept="8" trace="staticCanBeAParent#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Lorg/jetbrains/mps/openapi/language/SContainmentLink;)Z" />
+      <node id="1049114778041863472" at="27,0,37,0" concept="3" trace="invoke#(Ljetbrains/mps/smodel/runtime/ConstraintContext_CanBeParent;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Ljava/lang/Boolean;" />
+      <node id="1049114778041863472" at="25,105,37,6" concept="5" />
+      <node id="1049114778041863472" at="24,0,39,0" concept="3" trace="calculateCanBeParentConstraint#()Ljetbrains/mps/smodel/runtime/ConstraintFunction;" />
+      <scope id="1049114778041863472" at="20,33,21,138" />
+      <scope id="1049114778041863472" at="31,55,32,72" />
+      <scope id="1049114778041896750" at="39,128,40,520" />
+      <scope id="1049114778041863472" at="20,0,23,0" />
+      <scope id="1049114778041863472" at="39,0,42,0">
+        <var name="childConcept" id="1049114778041863472" />
+        <var name="childNode" id="1049114778041863472" />
+        <var name="link" id="1049114778041863472" />
+        <var name="node" id="1049114778041863472" />
+      </scope>
+      <scope id="1049114778041863472" at="28,128,35,22">
+        <var name="result" id="1049114778041863472" />
+      </scope>
+      <scope id="1049114778041863472" at="27,0,37,0">
+        <var name="checkingNodeContext" id="1049114778041863472" />
+        <var name="context" id="1049114778041863472" />
+      </scope>
+      <scope id="1049114778041863472" at="25,105,37,6" />
+      <scope id="1049114778041863472" at="24,0,39,0" />
+      <unit id="1049114778041863472" at="26,15,37,5" name="deklund.ohml.constraints.Resistor_Constraints$1" />
+      <unit id="1049114778041863472" at="19,0,44,0" name="deklund.ohml.constraints.Resistor_Constraints" />
     </file>
   </root>
 </debug-info>

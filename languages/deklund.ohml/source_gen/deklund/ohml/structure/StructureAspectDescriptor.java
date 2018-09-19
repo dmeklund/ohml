@@ -15,12 +15,10 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptCircuit = createDescriptorForCircuit();
   /*package*/ final ConceptDescriptor myConceptComponent = createDescriptorForComponent();
   /*package*/ final ConceptDescriptor myConceptComponentGraph = createDescriptorForComponentGraph();
-  /*package*/ final ConceptDescriptor myConceptOhm = createDescriptorForOhm();
   /*package*/ final ConceptDescriptor myConceptResistance = createDescriptorForResistance();
   /*package*/ final ConceptDescriptor myConceptResistanceUnit = createDescriptorForResistanceUnit();
   /*package*/ final ConceptDescriptor myConceptResistor = createDescriptorForResistor();
   /*package*/ final ConceptDescriptor myConceptUnit = createDescriptorForUnit();
-  /*package*/ final ConceptDescriptor myConceptUnitValue = createDescriptorForUnitValue();
   /*package*/ final ConceptDescriptor myConceptVolt = createDescriptorForVolt();
   /*package*/ final ConceptDescriptor myConceptVoltage = createDescriptorForVoltage();
   /*package*/ final ConceptDescriptor myConceptVoltageUnit = createDescriptorForVoltageUnit();
@@ -32,7 +30,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
 
   @Override
   public Collection<ConceptDescriptor> getDescriptors() {
-    return Arrays.asList(myConceptCircuit, myConceptComponent, myConceptComponentGraph, myConceptOhm, myConceptResistance, myConceptResistanceUnit, myConceptResistor, myConceptUnit, myConceptUnitValue, myConceptVolt, myConceptVoltage, myConceptVoltageUnit);
+    return Arrays.asList(myConceptCircuit, myConceptComponent, myConceptComponentGraph, myConceptResistance, myConceptResistanceUnit, myConceptResistor, myConceptUnit, myConceptVolt, myConceptVoltage, myConceptVoltageUnit);
   }
 
   @Override
@@ -45,8 +43,6 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
         return myConceptComponent;
       case LanguageConceptSwitch.ComponentGraph:
         return myConceptComponentGraph;
-      case LanguageConceptSwitch.Ohm:
-        return myConceptOhm;
       case LanguageConceptSwitch.Resistance:
         return myConceptResistance;
       case LanguageConceptSwitch.ResistanceUnit:
@@ -55,8 +51,6 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
         return myConceptResistor;
       case LanguageConceptSwitch.Unit:
         return myConceptUnit;
-      case LanguageConceptSwitch.UnitValue:
-        return myConceptUnitValue;
       case LanguageConceptSwitch.Volt:
         return myConceptVolt;
       case LanguageConceptSwitch.Voltage:
@@ -98,15 +92,6 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.version(2);
     return b.create();
   }
-  private static ConceptDescriptor createDescriptorForOhm() {
-    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("deklund.ohml", "Ohm", 0x27a2b5222610408aL, 0xab92b094842ed001L, 0xe8f345509c5d34dL);
-    b.class_(false, false, false);
-    b.super_("deklund.ohml.structure.ResistanceUnit", 0x27a2b5222610408aL, 0xab92b094842ed001L, 0xe8f345509c5d30eL);
-    b.origin("r:66cd426c-b834-475f-8a3d-d7e3518c2104(deklund.ohml.structure)/1049114778041439053");
-    b.version(2);
-    b.alias("ohm");
-    return b.create();
-  }
   private static ConceptDescriptor createDescriptorForResistance() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("deklund.ohml", "Resistance", 0x27a2b5222610408aL, 0xab92b094842ed001L, 0xe8f345509c58abcL);
     b.class_(false, false, false);
@@ -131,7 +116,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.parent(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L);
     b.origin("r:66cd426c-b834-475f-8a3d-d7e3518c2104(deklund.ohml.structure)/1049114778041370663");
     b.version(2);
-    b.aggregate("resistance", 0xe8f345509c593c9L).target(0x27a2b5222610408aL, 0xab92b094842ed001L, 0xe8f345509c5d30eL).optional(false).ordered(true).multiple(false).origin("1049114778041422793").done();
+    b.aggregate("resistance", 0xe8f345509cc2fb2L).target(0xe1771c58997e48d1L, 0xb36b872f2d4f3bd5L, 0xe8f345509c8ac09L).optional(false).ordered(true).multiple(false).origin("1049114778041855922").done();
     b.alias("resistor");
     return b.create();
   }
@@ -141,15 +126,6 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.origin("r:66cd426c-b834-475f-8a3d-d7e3518c2104(deklund.ohml.structure)/1049114778041477456");
     b.version(2);
     b.prop("value", 0xe8f345509c8060cL, "1049114778041583116");
-    return b.create();
-  }
-  private static ConceptDescriptor createDescriptorForUnitValue() {
-    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("deklund.ohml", "UnitValue", 0x27a2b5222610408aL, 0xab92b094842ed001L, 0xe8f345509c66956L);
-    b.class_(false, true, false);
-    b.origin("r:66cd426c-b834-475f-8a3d-d7e3518c2104(deklund.ohml.structure)/1049114778041477462");
-    b.version(2);
-    b.prop("value", 0xe8f345509c66964L, "1049114778041477476");
-    b.aggregate("unit", 0xe8f345509c66967L).target(0x27a2b5222610408aL, 0xab92b094842ed001L, 0xe8f345509c66950L).optional(false).ordered(true).multiple(false).origin("1049114778041477479").done();
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForVolt() {

@@ -7,6 +7,7 @@
   </models>
   <sourcePath />
   <languageVersions>
+    <language slang="l:3c4bdd14-b1b5-479f-aea4-8829c0512a3b:deklund.util.math" version="0" />
     <language slang="l:e1771c58-997e-48d1-b36b-872f2d4f3bd5:deklund.util.units" version="0" />
     <language slang="l:ceab5195-25ea-4f22-9b92-103b95ca8c0c:jetbrains.mps.lang.core" version="1" />
   </languageVersions>

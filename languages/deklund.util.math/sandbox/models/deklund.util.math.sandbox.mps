@@ -6,6 +6,11 @@
     <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="1" />
   </languages>
   <imports />
-  <registry />
+  <registry>
+    <language id="3c4bdd14-b1b5-479f-aea4-8829c0512a3b" name="deklund.util.math">
+      <concept id="1049114778041648233" name="deklund.util.math.structure.MathSandbox" flags="ng" index="7hz0W" />
+    </language>
+  </registry>
+  <node concept="7hz0W" id="Ufd5k9MgFT" />
 </model>
 

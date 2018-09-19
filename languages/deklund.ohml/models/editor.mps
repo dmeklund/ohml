@@ -8,7 +8,6 @@
   <imports>
     <import index="sfys" ref="r:66cd426c-b834-475f-8a3d-d7e3518c2104(deklund.ohml.structure)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
-    <import index="tpen" ref="r:00000000-0000-4000-0000-011c895902c3(jetbrains.mps.baseLanguage.editor)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -28,9 +27,6 @@
       </concept>
       <concept id="1233758997495" name="jetbrains.mps.lang.editor.structure.PunctuationLeftStyleClassItem" flags="ln" index="11L4FC" />
       <concept id="1233759184865" name="jetbrains.mps.lang.editor.structure.PunctuationRightStyleClassItem" flags="ln" index="11LMrY" />
-      <concept id="1381004262292414836" name="jetbrains.mps.lang.editor.structure.ICellStyle" flags="ng" index="1k5N5V">
-        <reference id="1381004262292426837" name="parentStyleClass" index="1k5W1q" />
-      </concept>
       <concept id="1236262245656" name="jetbrains.mps.lang.editor.structure.MatchingLabelStyleClassItem" flags="ln" index="3mYdg7">
         <property id="1238091709220" name="labelName" index="1413C4" />
       </concept>
@@ -52,11 +48,6 @@
       <concept id="1073390211982" name="jetbrains.mps.lang.editor.structure.CellModel_RefNodeList" flags="sg" stub="2794558372793454595" index="3F2HdR" />
       <concept id="1166049232041" name="jetbrains.mps.lang.editor.structure.AbstractComponent" flags="ng" index="1XWOmA">
         <reference id="1166049300910" name="conceptDeclaration" index="1XX52x" />
-      </concept>
-    </language>
-    <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
-      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
-        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
       </concept>
     </language>
   </registry>
@@ -145,28 +136,14 @@
       </node>
     </node>
   </node>
-  <node concept="24kQdi" id="Ufd5k9Ltde">
-    <property role="3GE5qa" value="unit" />
-    <ref role="1XX52x" to="sfys:Ufd5k9Ltdd" resolve="Ohm" />
-    <node concept="3EZMnI" id="Ufd5k9M0pi" role="2wV5jI">
-      <node concept="3F0A7n" id="Ufd5k9M0pw" role="3EZMnx">
-        <ref role="1NtTu8" to="sfys:Ufd5k9M0oc" resolve="value" />
-      </node>
-      <node concept="3F0ifn" id="Ufd5k9M0rd" role="3EZMnx">
-        <property role="3F0ifm" value="ohm" />
-        <ref role="1k5W1q" to="tpen:hgVS8CF" resolve="KeyWord" />
-      </node>
-      <node concept="l2Vlx" id="Ufd5k9M0pl" role="2iSdaV" />
-    </node>
-  </node>
   <node concept="24kQdi" id="Ufd5k9Ltd_">
     <ref role="1XX52x" to="sfys:Ufd5k9LcwB" resolve="Resistor" />
     <node concept="3EZMnI" id="Ufd5k9LtdB" role="2wV5jI">
       <node concept="3F0ifn" id="Ufd5k9LtdP" role="3EZMnx">
         <property role="3F0ifm" value="resistor" />
       </node>
-      <node concept="3F1sOY" id="Ufd5k9Lte4" role="3EZMnx">
-        <ref role="1NtTu8" to="sfys:Ufd5k9Lpf9" resolve="resistance" />
+      <node concept="3F1sOY" id="Ufd5k9N2YS" role="3EZMnx">
+        <ref role="1NtTu8" to="sfys:Ufd5k9N2YM" resolve="resistance" />
       </node>
       <node concept="l2Vlx" id="Ufd5k9LtdE" role="2iSdaV" />
     </node>

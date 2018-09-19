@@ -8,6 +8,7 @@
   <imports>
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="4rrt" ref="r:c264d8fc-71a0-40ee-b88e-8e841ae8030f(deklund.util.units.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
@@ -91,12 +92,12 @@
     <node concept="PrWs8" id="Ufd5k9LoYO" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
-    <node concept="1TJgyj" id="Ufd5k9Lpf9" role="1TKVEi">
-      <property role="IQ2ns" value="1049114778041422793" />
+    <node concept="1TJgyj" id="Ufd5k9N2YM" role="1TKVEi">
+      <property role="IQ2ns" value="1049114778041855922" />
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="resistance" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="Ufd5k9Ltce" resolve="ResistanceUnit" />
+      <ref role="20lvS9" to="4rrt:Ufd5k9MaK9" resolve="UnitValue" />
     </node>
   </node>
   <node concept="1TIwiD" id="Ufd5k9LoEW">
@@ -123,13 +124,6 @@
     <property role="R5$K2" value="false" />
     <property role="3GE5qa" value="unit" />
     <ref role="1TJDcQ" node="Ufd5k9LA_g" resolve="Unit" />
-  </node>
-  <node concept="1TIwiD" id="Ufd5k9Ltdd">
-    <property role="EcuMT" value="1049114778041439053" />
-    <property role="TrG5h" value="Ohm" />
-    <property role="34LRSv" value="ohm" />
-    <property role="3GE5qa" value="unit" />
-    <ref role="1TJDcQ" node="Ufd5k9Ltce" resolve="ResistanceUnit" />
   </node>
   <node concept="1TIwiD" id="Ufd5k9LA_f">
     <property role="EcuMT" value="1049114778041477455" />
@@ -163,25 +157,6 @@
     <property role="EcuMT" value="1049114778041477461" />
     <property role="TrG5h" value="Voltage" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-  </node>
-  <node concept="1TIwiD" id="Ufd5k9LA_m">
-    <property role="EcuMT" value="1049114778041477462" />
-    <property role="TrG5h" value="UnitValue" />
-    <property role="R5$K7" value="true" />
-    <property role="R5$K2" value="false" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyi" id="Ufd5k9LA_$" role="1TKVEl">
-      <property role="IQ2nx" value="1049114778041477476" />
-      <property role="TrG5h" value="value" />
-      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
-    </node>
-    <node concept="1TJgyj" id="Ufd5k9LA_B" role="1TKVEi">
-      <property role="IQ2ns" value="1049114778041477479" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="unit" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="Ufd5k9LA_g" resolve="Unit" />
-    </node>
   </node>
 </model>
 
