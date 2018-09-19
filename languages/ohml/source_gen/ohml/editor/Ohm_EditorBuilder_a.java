@@ -28,6 +28,9 @@ import jetbrains.mps.lang.core.behavior.PropertyAttribute__BehaviorDescriptor;
 import jetbrains.mps.nodeEditor.EditorManager;
 import jetbrains.mps.openapi.editor.update.AttributeKind;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
+import jetbrains.mps.openapi.editor.style.Style;
+import jetbrains.mps.editor.runtime.style.StyleImpl;
+import jetbrains.mps.baseLanguage.editor.BaseLanguageStyle_StyleSheet.KeyWordStyleClass;
 
 /*package*/ class Ohm_EditorBuilder_a extends AbstractEditorBuilder {
   @NotNull
@@ -87,6 +90,9 @@ import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
   private EditorCell createConstant_0() {
     EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "ohm");
     editorCell.setCellId("Constant_y5phsc_b0");
+    Style style = new StyleImpl();
+    new KeyWordStyleClass(getEditorContext(), getNode()).apply(style, editorCell);
+    editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
   }
