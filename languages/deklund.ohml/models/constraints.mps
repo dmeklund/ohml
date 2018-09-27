@@ -61,9 +61,6 @@
       </concept>
     </language>
   </registry>
-  <node concept="1M2fIO" id="Ufd5k9LA_R">
-    <ref role="1M2myG" to="sfys:Ufd5k9LoEW" resolve="Resistance" />
-  </node>
   <node concept="1M2fIO" id="Ufd5k9N4OK">
     <ref role="1M2myG" to="sfys:Ufd5k9LcwB" resolve="Resistor" />
     <node concept="9SLcT" id="Ufd5k9NcWH" role="9SGkU">

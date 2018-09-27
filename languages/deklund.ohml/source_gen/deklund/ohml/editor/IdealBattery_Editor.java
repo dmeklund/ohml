@@ -7,8 +7,8 @@ import jetbrains.mps.openapi.editor.cells.EditorCell;
 import jetbrains.mps.openapi.editor.EditorContext;
 import org.jetbrains.mps.openapi.model.SNode;
 
-public class Resistance_Editor extends DefaultNodeEditor {
+public class IdealBattery_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new Resistance_EditorBuilder_a(editorContext, node).createCell();
+    return new IdealBattery_EditorBuilder_a(editorContext, node).createCell();
   }
 }

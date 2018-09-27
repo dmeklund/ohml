@@ -12,13 +12,8 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   private ConceptPresentation props_Circuit;
   private ConceptPresentation props_Component;
   private ConceptPresentation props_ComponentGraph;
-  private ConceptPresentation props_Resistance;
-  private ConceptPresentation props_ResistanceUnit;
+  private ConceptPresentation props_IdealBattery;
   private ConceptPresentation props_Resistor;
-  private ConceptPresentation props_Unit;
-  private ConceptPresentation props_Volt;
-  private ConceptPresentation props_Voltage;
-  private ConceptPresentation props_VoltageUnit;
 
   @Override
   @Nullable
@@ -45,19 +40,13 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_ComponentGraph = cpb.create();
         }
         return props_ComponentGraph;
-      case LanguageConceptSwitch.Resistance:
-        if (props_Resistance == null) {
+      case LanguageConceptSwitch.IdealBattery:
+        if (props_IdealBattery == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.rawPresentation("Resistance");
-          props_Resistance = cpb.create();
+          cpb.presentationByName();
+          props_IdealBattery = cpb.create();
         }
-        return props_Resistance;
-      case LanguageConceptSwitch.ResistanceUnit:
-        if (props_ResistanceUnit == null) {
-          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          props_ResistanceUnit = cpb.create();
-        }
-        return props_ResistanceUnit;
+        return props_IdealBattery;
       case LanguageConceptSwitch.Resistor:
         if (props_Resistor == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
@@ -65,32 +54,6 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_Resistor = cpb.create();
         }
         return props_Resistor;
-      case LanguageConceptSwitch.Unit:
-        if (props_Unit == null) {
-          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          props_Unit = cpb.create();
-        }
-        return props_Unit;
-      case LanguageConceptSwitch.Volt:
-        if (props_Volt == null) {
-          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.rawPresentation("volt");
-          props_Volt = cpb.create();
-        }
-        return props_Volt;
-      case LanguageConceptSwitch.Voltage:
-        if (props_Voltage == null) {
-          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.rawPresentation("Voltage");
-          props_Voltage = cpb.create();
-        }
-        return props_Voltage;
-      case LanguageConceptSwitch.VoltageUnit:
-        if (props_VoltageUnit == null) {
-          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          props_VoltageUnit = cpb.create();
-        }
-        return props_VoltageUnit;
     }
     return null;
   }

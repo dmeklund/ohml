@@ -20,7 +20,7 @@ public class EditorAspectDescriptorImpl extends EditorAspectDescriptorBase {
       case 0:
         return Collections.<ConceptEditor>singletonList(new Circuit_Editor());
       case 1:
-        return Collections.<ConceptEditor>singletonList(new Resistance_Editor());
+        return Collections.<ConceptEditor>singletonList(new IdealBattery_Editor());
       case 2:
         return Collections.<ConceptEditor>singletonList(new Resistor_Editor());
       default:
@@ -30,5 +30,5 @@ public class EditorAspectDescriptorImpl extends EditorAspectDescriptorBase {
 
 
 
-  private static final ConceptSwitchIndex conceptIndex = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0x27a2b5222610408aL, 0xab92b094842ed001L, 0xe8f345509c3fc5aL), MetaIdFactory.conceptId(0x27a2b5222610408aL, 0xab92b094842ed001L, 0xe8f345509c58abcL), MetaIdFactory.conceptId(0x27a2b5222610408aL, 0xab92b094842ed001L, 0xe8f345509c4c827L)).seal();
+  private static final ConceptSwitchIndex conceptIndex = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0x27a2b5222610408aL, 0xab92b094842ed001L, 0xe8f345509c3fc5aL), MetaIdFactory.conceptId(0x27a2b5222610408aL, 0xab92b094842ed001L, 0x89cc000c48f972dL), MetaIdFactory.conceptId(0x27a2b5222610408aL, 0xab92b094842ed001L, 0xe8f345509c4c827L)).seal();
 }

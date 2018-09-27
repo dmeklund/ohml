@@ -18,7 +18,6 @@
         <property id="4628067390765956802" name="abstract" index="R5$K7" />
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
-        <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
       <concept id="1169127622168" name="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" flags="ig" index="PrWs8">
         <reference id="1169127628841" name="intfc" index="PrY4T" />
@@ -27,10 +26,6 @@
         <property id="1096454100552" name="rootable" index="19KtqR" />
         <reference id="1071489389519" name="extends" index="1TJDcQ" />
         <child id="1169129564478" name="implements" index="PzmwI" />
-      </concept>
-      <concept id="1071489288299" name="jetbrains.mps.lang.structure.structure.PropertyDeclaration" flags="ig" index="1TJgyi">
-        <property id="241647608299431129" name="propertyId" index="IQ2nx" />
-        <reference id="1082985295845" name="dataType" index="AX2Wp" />
       </concept>
       <concept id="1071489288298" name="jetbrains.mps.lang.structure.structure.LinkDeclaration" flags="ig" index="1TJgyj">
         <property id="1071599776563" name="role" index="20kJfa" />
@@ -41,9 +36,6 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
-      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
-        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
-      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
@@ -100,63 +92,18 @@
       <ref role="20lvS9" to="4rrt:Ufd5k9MaK9" resolve="UnitValue" />
     </node>
   </node>
-  <node concept="1TIwiD" id="Ufd5k9LoEW">
-    <property role="EcuMT" value="1049114778041420476" />
-    <property role="TrG5h" value="Resistance" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyi" id="Ufd5k9LY73" role="1TKVEl">
-      <property role="IQ2nx" value="1049114778041573827" />
-      <property role="TrG5h" value="value" />
-      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
-    </node>
-    <node concept="1TJgyj" id="Ufd5k9LY76" role="1TKVEi">
-      <property role="IQ2ns" value="1049114778041573830" />
+  <node concept="1TIwiD" id="ysK034zTsH">
+    <property role="EcuMT" value="620581958200563501" />
+    <property role="TrG5h" value="IdealBattery" />
+    <property role="34LRSv" value="battery" />
+    <ref role="1TJDcQ" node="Ufd5k9L8qD" resolve="Component" />
+    <node concept="1TJgyj" id="ysK034zTt9" role="1TKVEi">
+      <property role="IQ2ns" value="620581958200563529" />
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="unit" />
+      <property role="20kJfa" value="voltage" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="Ufd5k9Ltce" resolve="ResistanceUnit" />
+      <ref role="20lvS9" to="4rrt:Ufd5k9MaK9" resolve="UnitValue" />
     </node>
-  </node>
-  <node concept="1TIwiD" id="Ufd5k9Ltce">
-    <property role="EcuMT" value="1049114778041438990" />
-    <property role="TrG5h" value="ResistanceUnit" />
-    <property role="R5$K7" value="true" />
-    <property role="R5$K2" value="false" />
-    <property role="3GE5qa" value="unit" />
-    <ref role="1TJDcQ" node="Ufd5k9LA_g" resolve="Unit" />
-  </node>
-  <node concept="1TIwiD" id="Ufd5k9LA_f">
-    <property role="EcuMT" value="1049114778041477455" />
-    <property role="3GE5qa" value="unit" />
-    <property role="TrG5h" value="VoltageUnit" />
-    <property role="R5$K7" value="true" />
-    <property role="R5$K2" value="false" />
-    <ref role="1TJDcQ" node="Ufd5k9LA_g" resolve="Unit" />
-  </node>
-  <node concept="1TIwiD" id="Ufd5k9LA_g">
-    <property role="EcuMT" value="1049114778041477456" />
-    <property role="3GE5qa" value="unit" />
-    <property role="TrG5h" value="Unit" />
-    <property role="R5$K7" value="true" />
-    <property role="R5$K2" value="false" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyi" id="Ufd5k9M0oc" role="1TKVEl">
-      <property role="IQ2nx" value="1049114778041583116" />
-      <property role="TrG5h" value="value" />
-      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="Ufd5k9LA_h">
-    <property role="EcuMT" value="1049114778041477457" />
-    <property role="3GE5qa" value="unit" />
-    <property role="TrG5h" value="Volt" />
-    <property role="34LRSv" value="volt" />
-    <ref role="1TJDcQ" node="Ufd5k9LA_f" resolve="VoltageUnit" />
-  </node>
-  <node concept="1TIwiD" id="Ufd5k9LA_l">
-    <property role="EcuMT" value="1049114778041477461" />
-    <property role="TrG5h" value="Voltage" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
 </model>
 

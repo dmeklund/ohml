@@ -25,11 +25,6 @@
       <concept id="1186414536763" name="jetbrains.mps.lang.editor.structure.BooleanStyleSheetItem" flags="ln" index="VOi$J">
         <property id="1186414551515" name="flag" index="VOm3f" />
       </concept>
-      <concept id="1233758997495" name="jetbrains.mps.lang.editor.structure.PunctuationLeftStyleClassItem" flags="ln" index="11L4FC" />
-      <concept id="1233759184865" name="jetbrains.mps.lang.editor.structure.PunctuationRightStyleClassItem" flags="ln" index="11LMrY" />
-      <concept id="1236262245656" name="jetbrains.mps.lang.editor.structure.MatchingLabelStyleClassItem" flags="ln" index="3mYdg7">
-        <property id="1238091709220" name="labelName" index="1413C4" />
-      </concept>
       <concept id="1139848536355" name="jetbrains.mps.lang.editor.structure.CellModel_WithRole" flags="ng" index="1$h60E">
         <reference id="1140103550593" name="relationDeclaration" index="1NtTu8" />
       </concept>
@@ -76,66 +71,6 @@
       <node concept="l2Vlx" id="Ufd5k9KZLE" role="2iSdaV" />
     </node>
   </node>
-  <node concept="24kQdi" id="Ufd5k9Ltcf">
-    <ref role="1XX52x" to="sfys:Ufd5k9LoEW" resolve="Resistance" />
-    <node concept="3EZMnI" id="Ufd5k9Ltch" role="2wV5jI">
-      <node concept="l2Vlx" id="Ufd5k9Ltci" role="2iSdaV" />
-      <node concept="3F0ifn" id="Ufd5k9Ltcj" role="3EZMnx">
-        <property role="3F0ifm" value="resistance" />
-      </node>
-      <node concept="3F0ifn" id="Ufd5k9Ltck" role="3EZMnx">
-        <property role="3F0ifm" value="(" />
-        <node concept="11L4FC" id="Ufd5k9Ltcl" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-        <node concept="3mYdg7" id="Ufd5k9Ltcm" role="3F10Kt">
-          <property role="1413C4" value="body-paren" />
-        </node>
-        <node concept="11LMrY" id="Ufd5k9Ltcn" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-      </node>
-      <node concept="3F0ifn" id="Ufd5k9Ltco" role="3EZMnx">
-        <property role="3F0ifm" value="value" />
-      </node>
-      <node concept="3F0ifn" id="Ufd5k9Ltcp" role="3EZMnx">
-        <property role="3F0ifm" value=":" />
-        <node concept="11L4FC" id="Ufd5k9Ltcq" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-      </node>
-      <node concept="3F0A7n" id="Ufd5k9Lwem" role="3EZMnx">
-        <ref role="1NtTu8" to="sfys:Ufd5k9LY73" resolve="value" />
-      </node>
-      <node concept="3F0ifn" id="Ufd5k9Ltcs" role="3EZMnx">
-        <property role="3F0ifm" value="," />
-        <node concept="11L4FC" id="Ufd5k9Ltct" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-      </node>
-      <node concept="3F0ifn" id="Ufd5k9Ltcu" role="3EZMnx">
-        <property role="3F0ifm" value="unit" />
-      </node>
-      <node concept="3F0ifn" id="Ufd5k9Ltcv" role="3EZMnx">
-        <property role="3F0ifm" value=":" />
-        <node concept="11L4FC" id="Ufd5k9Ltcw" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-      </node>
-      <node concept="3F1sOY" id="Ufd5k9Ltcx" role="3EZMnx">
-        <ref role="1NtTu8" to="sfys:Ufd5k9LY76" resolve="unit" />
-      </node>
-      <node concept="3F0ifn" id="Ufd5k9Ltcy" role="3EZMnx">
-        <property role="3F0ifm" value=")" />
-        <node concept="11L4FC" id="Ufd5k9Ltcz" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-        <node concept="3mYdg7" id="Ufd5k9Ltc$" role="3F10Kt">
-          <property role="1413C4" value="body-paren" />
-        </node>
-      </node>
-    </node>
-  </node>
   <node concept="24kQdi" id="Ufd5k9Ltd_">
     <ref role="1XX52x" to="sfys:Ufd5k9LcwB" resolve="Resistor" />
     <node concept="3EZMnI" id="Ufd5k9LtdB" role="2wV5jI">
@@ -146,6 +81,18 @@
         <ref role="1NtTu8" to="sfys:Ufd5k9N2YM" resolve="resistance" />
       </node>
       <node concept="l2Vlx" id="Ufd5k9LtdE" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="ysK034zTtk">
+    <ref role="1XX52x" to="sfys:ysK034zTsH" resolve="IdealBattery" />
+    <node concept="3EZMnI" id="ysK034zTtm" role="2wV5jI">
+      <node concept="3F0ifn" id="ysK034zTtw" role="3EZMnx">
+        <property role="3F0ifm" value="battery" />
+      </node>
+      <node concept="3F1sOY" id="ysK034zTtD" role="3EZMnx">
+        <ref role="1NtTu8" to="sfys:ysK034zTt9" resolve="voltage" />
+      </node>
+      <node concept="l2Vlx" id="ysK034zTtp" role="2iSdaV" />
     </node>
   </node>
 </model>

@@ -19,12 +19,10 @@ public class ConstraintsAspectDescriptor extends BaseConstraintsAspectDescriptor
     SAbstractConcept cncpt = concept;
     switch (conceptIndex.index(cncpt)) {
       case 0:
-        return new Resistance_Constraints();
-      case 1:
         return new Resistor_Constraints();
       default:
     }
     return new BaseConstraintsDescriptor(concept);
   }
-  private static final ConceptSwitchIndex conceptIndex = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0x27a2b5222610408aL, 0xab92b094842ed001L, 0xe8f345509c58abcL), MetaIdFactory.conceptId(0x27a2b5222610408aL, 0xab92b094842ed001L, 0xe8f345509c4c827L)).seal();
+  private static final ConceptSwitchIndex conceptIndex = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0x27a2b5222610408aL, 0xab92b094842ed001L, 0xe8f345509c4c827L)).seal();
 }

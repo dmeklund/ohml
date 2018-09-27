@@ -12,26 +12,16 @@ public final class LanguageConceptSwitch {
   public static final int Circuit = 0;
   public static final int Component = 1;
   public static final int ComponentGraph = 2;
-  public static final int Resistance = 3;
-  public static final int ResistanceUnit = 4;
-  public static final int Resistor = 5;
-  public static final int Unit = 6;
-  public static final int Volt = 7;
-  public static final int Voltage = 8;
-  public static final int VoltageUnit = 9;
+  public static final int IdealBattery = 3;
+  public static final int Resistor = 4;
 
   public LanguageConceptSwitch() {
     LanguageConceptIndexBuilder builder = new LanguageConceptIndexBuilder(0x27a2b5222610408aL, 0xab92b094842ed001L);
     builder.put(0xe8f345509c3fc5aL, Circuit);
     builder.put(0xe8f345509c486a9L, Component);
     builder.put(0xe8f345509c41b6dL, ComponentGraph);
-    builder.put(0xe8f345509c58abcL, Resistance);
-    builder.put(0xe8f345509c5d30eL, ResistanceUnit);
+    builder.put(0x89cc000c48f972dL, IdealBattery);
     builder.put(0xe8f345509c4c827L, Resistor);
-    builder.put(0xe8f345509c66950L, Unit);
-    builder.put(0xe8f345509c66951L, Volt);
-    builder.put(0xe8f345509c66955L, Voltage);
-    builder.put(0xe8f345509c6694fL, VoltageUnit);
     myIndex = builder.seal();
   }
 
