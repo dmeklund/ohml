@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MPSProject">
+    <projectModules>
+      <modulePath path="$PROJECT_DIR$/languages/deklund.ohml/deklund.ohml.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/deklund.ohml/runtime/deklund.ohml.runtime.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/deklund.ohml/sandbox/deklund.ohml.sandbox.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/deklund.util.math/deklund.util.math.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/deklund.util.math/runtime/deklund.util.math.runtime.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/deklund.util.math/sandbox/deklund.util.math.sandbox.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/deklund.util.units/deklund.util.units.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/deklund.util.units/runtime/deklund.util.units.runtime.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/deklund.util.units/sandbox/deklund.util.units.sandbox.msd" folder="" />
+    </projectModules>
+  </component>
+</project>
