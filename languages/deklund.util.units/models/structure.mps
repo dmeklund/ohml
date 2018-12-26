@@ -2,7 +2,7 @@
 <model ref="r:c264d8fc-71a0-40ee-b88e-8e841ae8030f(deklund.util.units.structure)">
   <persistence version="9" />
   <languages>
-    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="6" />
+    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="7" />
     <devkit ref="78434eb8-b0e5-444b-850d-e7c4ad2da9ab(jetbrains.mps.devkit.aspect.structure)" />
   </languages>
   <imports>
@@ -12,19 +12,11 @@
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
-      <concept id="1082978164219" name="jetbrains.mps.lang.structure.structure.EnumerationDataTypeDeclaration" flags="ng" index="AxPO7">
-        <property id="1197591154882" name="memberIdentifierPolicy" index="3lZH7k" />
-        <reference id="1083171729157" name="memberDataType" index="M4eZT" />
-        <child id="1083172003582" name="member" index="M5hS2" />
-      </concept>
-      <concept id="1083171877298" name="jetbrains.mps.lang.structure.structure.EnumerationMemberDeclaration" flags="ig" index="M4N5e">
-        <property id="1083923523172" name="externalValue" index="1uS6qo" />
-        <property id="1083923523171" name="internalValue" index="1uS6qv" />
-      </concept>
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
         <property id="4628067390765956807" name="final" index="R5$K2" />
         <property id="4628067390765956802" name="abstract" index="R5$K7" />
+        <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
@@ -71,10 +63,11 @@
       <property role="TrG5h" value="value" />
       <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
     </node>
-    <node concept="1TJgyi" id="Ufd5k9MYLa" role="1TKVEl">
-      <property role="IQ2nx" value="1049114778041838666" />
-      <property role="TrG5h" value="unit" />
-      <ref role="AX2Wp" node="Ufd5k9MYL5" resolve="CoreUnitEnum" />
+    <node concept="1TJgyj" id="PoHq$EjGMw" role="1TKVEi">
+      <property role="IQ2ns" value="961718258607508640" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="unit" />
+      <ref role="20lvS9" node="Ufd5k9N0Uy" resolve="BaseUnit" />
     </node>
   </node>
   <node concept="1TIwiD" id="Ufd5k9MgWN">
@@ -90,24 +83,18 @@
       <ref role="20lvS9" to="4k78:Ufd5k9MaBL" resolve="MathConcept" />
     </node>
   </node>
-  <node concept="AxPO7" id="Ufd5k9MYL5">
-    <property role="TrG5h" value="CoreUnitEnum" />
-    <property role="3lZH7k" value="derive_from_presentation" />
-    <ref role="M4eZT" to="tpck:fKAOsGN" resolve="string" />
-    <node concept="M4N5e" id="Ufd5k9MYL7" role="M5hS2">
-      <property role="1uS6qo" value="ohm" />
-    </node>
-    <node concept="M4N5e" id="Ufd5k9MYL6" role="M5hS2">
-      <property role="1uS6qo" value="volt" />
-      <property role="1uS6qv" value="volt" />
-    </node>
-  </node>
   <node concept="1TIwiD" id="Ufd5k9N0Uy">
     <property role="EcuMT" value="1049114778041847458" />
     <property role="TrG5h" value="BaseUnit" />
     <property role="R5$K7" value="true" />
     <property role="R5$K2" value="false" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <ref role="1TJDcQ" to="4k78:Ufd5k9MaBL" resolve="MathConcept" />
+  </node>
+  <node concept="1TIwiD" id="PoHq$EjGMt">
+    <property role="EcuMT" value="961718258607508637" />
+    <property role="TrG5h" value="Ohm" />
+    <property role="34LRSv" value="ohm" />
+    <ref role="1TJDcQ" node="Ufd5k9N0Uy" resolve="BaseUnit" />
   </node>
 </model>
 

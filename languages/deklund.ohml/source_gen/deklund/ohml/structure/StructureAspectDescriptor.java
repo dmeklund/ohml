@@ -8,6 +8,7 @@ import java.util.Collection;
 import java.util.Arrays;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.smodel.adapter.ids.SConceptId;
+import jetbrains.mps.smodel.runtime.DataTypeDescriptor;
 import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import jetbrains.mps.smodel.runtime.impl.ConceptDescriptorBuilder2;
 
@@ -47,6 +48,11 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     }
   }
 
+  @Override
+  public Collection<DataTypeDescriptor> getDataTypeDescriptors() {
+    return Arrays.asList();
+  }
+
   /*package*/ int internalIndex(SAbstractConcept c) {
     return myIndexSwitch.index(c);
   }
@@ -84,6 +90,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.origin("r:66cd426c-b834-475f-8a3d-d7e3518c2104(deklund.ohml.structure)/620581958200563501");
     b.version(2);
     b.aggregate("voltage", 0x89cc000c48f9749L).target(0xe1771c58997e48d1L, 0xb36b872f2d4f3bd5L, 0xe8f345509c8ac09L).optional(false).ordered(true).multiple(false).origin("620581958200563529").done();
+    b.alias("battery");
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForResistor() {

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dependenciesRoot>
-  <dependency className="deklund.util.math.Language" file="Language.java">
+  <dependency className="deklund.util.math.Language">
     <classNode dependClassName="deklund.util.math.behavior.BehaviorAspectDescriptor" />
     <classNode dependClassName="deklund.util.math.constraints.ConstraintsAspectDescriptor" />
     <classNode dependClassName="deklund.util.math.editor.EditorAspectDescriptorImpl" />

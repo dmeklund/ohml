@@ -15,7 +15,7 @@
       <unit at="10,0,32,0" name="deklund.util.math.structure.LanguageConceptSwitch" />
     </file>
     <file name="StructureAspectDescriptor.java">
-      <unit at="14,0,72,0" name="deklund.util.math.structure.StructureAspectDescriptor" />
+      <unit at="15,0,78,0" name="deklund.util.math.structure.StructureAspectDescriptor" />
     </file>
   </root>
   <root nodeRef="r:f748be68-59cd-4273-901f-64eec25587b1(deklund.util.math.structure)/1049114778041625045">
@@ -36,19 +36,19 @@
       <node id="1049114778041625045" at="19,49,20,45" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
-      <node id="1049114778041625045" at="17,0,18,0" concept="1" trace="myConceptProduct" />
-      <node id="1049114778041625045" at="37,41,38,32" concept="4" />
-      <node id="1049114778041625045" at="64,65,65,158" concept="3" />
-      <node id="1049114778041625045" at="65,158,66,34" concept="0" />
-      <node id="1049114778041625045" at="66,34,67,104" concept="0" />
-      <node id="1049114778041625045" at="67,104,68,17" concept="0" />
-      <node id="1049114778041625045" at="68,17,69,22" concept="4" />
-      <node id="1049114778041625045" at="64,0,71,0" concept="6" trace="createDescriptorForProduct#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
-      <scope id="1049114778041625045" at="37,41,38,32" />
-      <scope id="1049114778041625045" at="64,65,69,22">
+      <node id="1049114778041625045" at="18,0,19,0" concept="1" trace="myConceptProduct" />
+      <node id="1049114778041625045" at="38,41,39,32" concept="4" />
+      <node id="1049114778041625045" at="70,65,71,158" concept="3" />
+      <node id="1049114778041625045" at="71,158,72,34" concept="0" />
+      <node id="1049114778041625045" at="72,34,73,104" concept="0" />
+      <node id="1049114778041625045" at="73,104,74,17" concept="0" />
+      <node id="1049114778041625045" at="74,17,75,22" concept="4" />
+      <node id="1049114778041625045" at="70,0,77,0" concept="6" trace="createDescriptorForProduct#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="1049114778041625045" at="38,41,39,32" />
+      <scope id="1049114778041625045" at="70,65,75,22">
         <var name="b" id="1049114778041625045" />
       </scope>
-      <scope id="1049114778041625045" at="64,0,71,0" />
+      <scope id="1049114778041625045" at="70,0,77,0" />
     </file>
   </root>
   <root nodeRef="r:f748be68-59cd-4273-901f-64eec25587b1(deklund.util.math.structure)/1049114778041625073">
@@ -68,19 +68,19 @@
       <node id="1049114778041625073" at="17,116,18,49" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
-      <node id="1049114778041625073" at="15,0,16,0" concept="1" trace="myConceptMathConcept" />
-      <node id="1049114778041625073" at="33,45,34,36" concept="4" />
-      <node id="1049114778041625073" at="48,69,49,162" concept="3" />
-      <node id="1049114778041625073" at="49,162,50,33" concept="0" />
-      <node id="1049114778041625073" at="50,33,51,104" concept="0" />
-      <node id="1049114778041625073" at="51,104,52,17" concept="0" />
-      <node id="1049114778041625073" at="52,17,53,22" concept="4" />
-      <node id="1049114778041625073" at="48,0,55,0" concept="6" trace="createDescriptorForMathConcept#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
-      <scope id="1049114778041625073" at="33,45,34,36" />
-      <scope id="1049114778041625073" at="48,69,53,22">
+      <node id="1049114778041625073" at="16,0,17,0" concept="1" trace="myConceptMathConcept" />
+      <node id="1049114778041625073" at="34,45,35,36" concept="4" />
+      <node id="1049114778041625073" at="54,69,55,162" concept="3" />
+      <node id="1049114778041625073" at="55,162,56,33" concept="0" />
+      <node id="1049114778041625073" at="56,33,57,104" concept="0" />
+      <node id="1049114778041625073" at="57,104,58,17" concept="0" />
+      <node id="1049114778041625073" at="58,17,59,22" concept="4" />
+      <node id="1049114778041625073" at="54,0,61,0" concept="6" trace="createDescriptorForMathConcept#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="1049114778041625073" at="34,45,35,36" />
+      <scope id="1049114778041625073" at="54,69,59,22">
         <var name="b" id="1049114778041625073" />
       </scope>
-      <scope id="1049114778041625073" at="48,0,55,0" />
+      <scope id="1049114778041625073" at="54,0,61,0" />
     </file>
   </root>
   <root nodeRef="r:f748be68-59cd-4273-901f-64eec25587b1(deklund.util.math.structure)/1049114778041648233">
@@ -101,21 +101,21 @@
       <node id="1049114778041648233" at="18,49,19,49" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
-      <node id="1049114778041648233" at="16,0,17,0" concept="1" trace="myConceptMathSandbox" />
-      <node id="1049114778041648233" at="35,45,36,36" concept="4" />
-      <node id="1049114778041648233" at="55,69,56,162" concept="3" />
-      <node id="1049114778041648233" at="56,162,57,33" concept="0" />
-      <node id="1049114778041648233" at="57,33,58,104" concept="0" />
-      <node id="1049114778041648233" at="58,104,59,17" concept="0" />
-      <node id="1049114778041648236" at="59,17,60,198" concept="0" />
-      <node id="1049114778041648233" at="60,198,61,28" concept="0" />
-      <node id="1049114778041648233" at="61,28,62,22" concept="4" />
-      <node id="1049114778041648233" at="55,0,64,0" concept="6" trace="createDescriptorForMathSandbox#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
-      <scope id="1049114778041648233" at="35,45,36,36" />
-      <scope id="1049114778041648233" at="55,69,62,22">
+      <node id="1049114778041648233" at="17,0,18,0" concept="1" trace="myConceptMathSandbox" />
+      <node id="1049114778041648233" at="36,45,37,36" concept="4" />
+      <node id="1049114778041648233" at="61,69,62,162" concept="3" />
+      <node id="1049114778041648233" at="62,162,63,33" concept="0" />
+      <node id="1049114778041648233" at="63,33,64,104" concept="0" />
+      <node id="1049114778041648233" at="64,104,65,17" concept="0" />
+      <node id="1049114778041648236" at="65,17,66,198" concept="0" />
+      <node id="1049114778041648233" at="66,198,67,28" concept="0" />
+      <node id="1049114778041648233" at="67,28,68,22" concept="4" />
+      <node id="1049114778041648233" at="61,0,70,0" concept="6" trace="createDescriptorForMathSandbox#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="1049114778041648233" at="36,45,37,36" />
+      <scope id="1049114778041648233" at="61,69,68,22">
         <var name="b" id="1049114778041648233" />
       </scope>
-      <scope id="1049114778041648233" at="55,0,64,0" />
+      <scope id="1049114778041648233" at="61,0,70,0" />
     </file>
   </root>
 </debug-info>

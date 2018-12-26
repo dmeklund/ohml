@@ -11,13 +11,15 @@ public final class LanguageConceptSwitch {
   private final LanguageConceptIndex myIndex;
   public static final int AggregateUnit = 0;
   public static final int BaseUnit = 1;
-  public static final int UnitValue = 2;
-  public static final int UnitsSandbox = 3;
+  public static final int Ohm = 2;
+  public static final int UnitValue = 3;
+  public static final int UnitsSandbox = 4;
 
   public LanguageConceptSwitch() {
     LanguageConceptIndexBuilder builder = new LanguageConceptIndexBuilder(0xe1771c58997e48d1L, 0xb36b872f2d4f3bd5L);
     builder.put(0xe8f345509c8a351L, AggregateUnit);
     builder.put(0xe8f345509cc0ea2L, BaseUnit);
+    builder.put(0xd58b5a92a4ecc9dL, Ohm);
     builder.put(0xe8f345509c8ac09L, UnitValue);
     builder.put(0xe8f345509c90f33L, UnitsSandbox);
     myIndex = builder.seal();

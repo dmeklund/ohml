@@ -17,7 +17,25 @@
     </breakpoint>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0bd3cb6-7615-4d72-8f93-a874b85f2712" name="Default Changelist" comment="" />
+    <list default="true" id="d0bd3cb6-7615-4d72-8f93-a874b85f2712" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/deklund.ohml/deklund.ohml.mpl" beforeDir="false" afterPath="$PROJECT_DIR$/languages/deklund.ohml/deklund.ohml.mpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/deklund.ohml/models/behavior.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/deklund.ohml/models/behavior.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/deklund.ohml/models/editor.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/deklund.ohml/models/editor.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/deklund.ohml/models/structure.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/deklund.ohml/models/structure.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/deklund.ohml/sandbox/deklund.ohml.sandbox.msd" beforeDir="false" afterPath="$PROJECT_DIR$/languages/deklund.ohml/sandbox/deklund.ohml.sandbox.msd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/deklund.ohml/sandbox/models/deklund.ohml.sandbox.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/deklund.ohml/sandbox/models/deklund.ohml.sandbox.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/deklund.ohml/sandbox/models/deklund.ohml.sandbox@tests.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/deklund.ohml/sandbox/models/deklund.ohml.sandbox@tests.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/deklund.util.math/deklund.util.math.mpl" beforeDir="false" afterPath="$PROJECT_DIR$/languages/deklund.util.math/deklund.util.math.mpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/deklund.util.math/models/behavior.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/deklund.util.math/models/behavior.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/deklund.util.math/models/editor.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/deklund.util.math/models/editor.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/deklund.util.math/models/structure.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/deklund.util.math/models/structure.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/deklund.util.units/deklund.util.units.mpl" beforeDir="false" afterPath="$PROJECT_DIR$/languages/deklund.util.units/deklund.util.units.mpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/deklund.util.units/models/behavior.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/deklund.util.units/models/behavior.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/deklund.util.units/models/editor.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/deklund.util.units/models/editor.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/deklund.util.units/models/structure.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/deklund.util.units/models/structure.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/deklund.util.units/sandbox/models/deklund.util.units.sandbox.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/deklund.util.units/sandbox/models/deklund.util.units.sandbox.mps" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +48,7 @@
         <TabState>
           <option name="title" value="Console" />
           <tab>
-            <model ref="2fdd41c0-4219-4bb9-97bc-dd3e94892fd7/r:f5fcc7f7-38e8-439c-a042-62ac1448b095(TempModule2fdd41c0-4219-4bb9-97bc-dd3e94892fd7/TempModel_16012738346028)">
+            <model ref="dddfe628-5387-49da-b426-0563efac2388/r:23b77937-aef5-4ae2-85b2-8859beca5057(TempModuledddfe628-5387-49da-b426-0563efac2388/TempModel_184925439661)">
               <persistence version="9" />
               <languages>
                 <devkit ref="70d3d6da-af63-483d-a75f-9c8acf8de332(jetbrains.mps.console.devkit)" />
@@ -50,11 +68,11 @@
                   <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
                 </language>
               </registry>
-              <node concept="aymSD" id="8_6SF4hDQD">
-                <node concept="3balQm" id="8_6SF4hDQE" role="aymYE" />
-                <node concept="2Clz$F" id="8_6SF4hDQF" role="aymYO" />
-                <node concept="2_V_lH" id="8_6SF4hDQG" role="1PhJh3">
-                  <ref role="2_V_lI" node="8_6SF4hDQF" resolve="CommandHolder" />
+              <node concept="aymSD" id="PoHq$EjDp9">
+                <node concept="3balQm" id="PoHq$EjDpa" role="aymYE" />
+                <node concept="2Clz$F" id="PoHq$EjDpb" role="aymYO" />
+                <node concept="2_V_lH" id="PoHq$EjDpc" role="1PhJh3">
+                  <ref role="2_V_lI" node="PoHq$EjDpb" resolve="CommandHolder" />
                 </node>
               </node>
             </model>
@@ -76,21 +94,6 @@
       </view>
     </search_options>
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-1157442071">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="4" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="4" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.vcs.git.usages" />
-    </session>
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
       <file pinned="false" current-in-tab="false">
@@ -99,73 +102,37 @@
             <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
               <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                    <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretX" value="283" />
-                    <property name="caretXRelative" value="60" />
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellSelection">
+                    <property name="caretX" value="0" />
+                    <property name="caretXRelative" value="-99" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="property_unit">
-                      <node node_reference="r:ffde65fe-8374-4822-87f3-4bc607bb5dff(deklund.ohml.sandbox)/620581958200569899" />
-                    </cellInfo>
-                  </stackElement>
-                </selectionStack>
-                <errorMarkers />
-                <transactionalProperties />
-                <foldable />
-                <restoreAlways />
-              </memento>
-              <inspectorMemento currentlyEditedNode="r:66cd426c-b834-475f-8a3d-d7e3518c2104(deklund.ohml.structure)/1049114778041326440" saveSessionState="false" viewPositionX="0" viewPositionY="0">
-                <selectionStack />
-                <errorMarkers />
-                <transactionalProperties />
-                <foldable />
-                <restoreAlways />
-                <enabledHints />
-              </inspectorMemento>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="mps://node://deklund.ohml/deklund.ohml.structure/IdealBattery">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
-              <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-                <selectionStack>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                    <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretX" value="149" />
-                    <property name="caretXRelative" value="0" />
-                    <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="Error_a1nfgp_a0">
-                      <node node_reference="r:e43dd5c8-4570-4934-af6c-27a57c34034f(deklund.ohml.behavior)/620581958200569941" />
+                    <cellInfo cellId="Collection_51lmgf_a">
+                      <node node_reference="r:ffde65fe-8374-4822-87f3-4bc607bb5dff(deklund.ohml.sandbox)/9089047674616779852" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
                 <errorMarkers>
-                  <errorMarker text="" propertyCell="false" cellId="Error_a1nfgp_a0">
-                    <node node_reference="r:e43dd5c8-4570-4934-af6c-27a57c34034f(deklund.ohml.behavior)/620581958200569941" />
+                  <errorMarker text="ohm" propertyCell="true" cellId="property_unit">
+                    <node node_reference="r:ffde65fe-8374-4822-87f3-4bc607bb5dff(deklund.ohml.sandbox)/9089047674616779852" />
                   </errorMarker>
-                  <errorMarker text="" propertyCell="true" cellId="property_name">
-                    <node node_reference="r:e43dd5c8-4570-4934-af6c-27a57c34034f(deklund.ohml.behavior)/620581958200569939" />
+                  <errorMarker text="" propertyCell="true" cellId="property_value">
+                    <node node_reference="r:ffde65fe-8374-4822-87f3-4bc607bb5dff(deklund.ohml.sandbox)/961718258607495797" />
+                  </errorMarker>
+                  <errorMarker text="volt" propertyCell="true" cellId="property_unit">
+                    <node node_reference="r:ffde65fe-8374-4822-87f3-4bc607bb5dff(deklund.ohml.sandbox)/961718258607495797" />
+                  </errorMarker>
+                  <errorMarker text="" propertyCell="true" cellId="property_unit">
+                    <node node_reference="r:ffde65fe-8374-4822-87f3-4bc607bb5dff(deklund.ohml.sandbox)/620581958200510953" />
+                  </errorMarker>
+                  <errorMarker text="" propertyCell="true" cellId="property_unit">
+                    <node node_reference="r:ffde65fe-8374-4822-87f3-4bc607bb5dff(deklund.ohml.sandbox)/620581958200569899" />
                   </errorMarker>
                 </errorMarkers>
                 <transactionalProperties />
-                <foldable>
-                  <collapsedElement isCollapsed="false">
-                    <cellIdElement cellId="Collection_fao2ea_a">
-                      <node node_reference="r:e43dd5c8-4570-4934-af6c-27a57c34034f(deklund.ohml.behavior)/620581958200569939" />
-                    </cellIdElement>
-                  </collapsedElement>
-                  <collapsedElement isCollapsed="false">
-                    <cellIdElement cellId="Collection_6lfqqa_b0">
-                      <node node_reference="r:e43dd5c8-4570-4934-af6c-27a57c34034f(deklund.ohml.behavior)/620581958200569929" />
-                    </cellIdElement>
-                  </collapsedElement>
-                </foldable>
+                <foldable />
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:66cd426c-b834-475f-8a3d-d7e3518c2104(deklund.ohml.structure)/1049114778041326440" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:4642a6fe-9799-46ea-887d-67b821391a7c(deklund.util.units.sandbox)/1049114778041656326" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -173,41 +140,6 @@
                 <restoreAlways />
                 <enabledHints />
               </inspectorMemento>
-              <node node_ref="r:e43dd5c8-4570-4934-af6c-27a57c34034f(deklund.ohml.behavior)/620581958200569928" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="mps://node://deklund.ohml/deklund.ohml.structure/Circuit">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
-              <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-                <selectionStack>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                    <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretX" value="336" />
-                    <property name="caretXRelative" value="120" />
-                    <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="property_name">
-                      <node node_reference="r:66cd426c-b834-475f-8a3d-d7e3518c2104(deklund.ohml.structure)/1049114778041326440" />
-                    </cellInfo>
-                  </stackElement>
-                </selectionStack>
-                <errorMarkers />
-                <transactionalProperties />
-                <foldable />
-                <restoreAlways />
-              </memento>
-              <inspectorMemento currentlyEditedNode="r:66cd426c-b834-475f-8a3d-d7e3518c2104(deklund.ohml.structure)/1049114778041326440" saveSessionState="false" viewPositionX="0" viewPositionY="0">
-                <selectionStack />
-                <errorMarkers />
-                <transactionalProperties />
-                <foldable />
-                <restoreAlways />
-                <enabledHints />
-              </inspectorMemento>
-              <node node_ref="r:66cd426c-b834-475f-8a3d-d7e3518c2104(deklund.ohml.structure)/1049114778041318490" />
             </state>
           </provider>
         </entry>
@@ -220,8 +152,8 @@
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretX" value="403" />
-                    <property name="caretXRelative" value="135" />
+                    <property name="caretX" value="223" />
+                    <property name="caretXRelative" value="72" />
                     <property name="sideSelectDirection" value="NONE" />
                     <cellInfo cellId="name">
                       <node node_reference="r:66cd426c-b834-475f-8a3d-d7e3518c2104(deklund.ohml.structure)/1049114778041353897" />
@@ -233,7 +165,7 @@
                 <foldable />
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:66cd426c-b834-475f-8a3d-d7e3518c2104(deklund.ohml.structure)/1049114778041326440" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:4642a6fe-9799-46ea-887d-67b821391a7c(deklund.util.units.sandbox)/1049114778041656326" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -254,26 +186,20 @@
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretX" value="284" />
-                    <property name="caretXRelative" value="0" />
+                    <property name="caretX" value="179" />
+                    <property name="caretXRelative" value="48" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="empty_canBeAncestor">
-                      <node node_reference="r:f022e1da-67d3-47de-b86f-b8f02c2a6f10(deklund.ohml.constraints)/1049114778041863472" />
+                    <cellInfo cellId="property_name">
+                      <node node_reference="r:66cd426c-b834-475f-8a3d-d7e3518c2104(deklund.ohml.structure)/1049114778041855922" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
                 <errorMarkers />
                 <transactionalProperties />
-                <foldable>
-                  <collapsedElement isCollapsed="false">
-                    <cellIdElement cellId="Collection_trik0f_b0">
-                      <node node_reference="r:f022e1da-67d3-47de-b86f-b8f02c2a6f10(deklund.ohml.constraints)/1049114778041896749" />
-                    </cellIdElement>
-                  </collapsedElement>
-                </foldable>
+                <foldable />
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:66cd426c-b834-475f-8a3d-d7e3518c2104(deklund.ohml.structure)/1049114778041326440" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:4642a6fe-9799-46ea-887d-67b821391a7c(deklund.util.units.sandbox)/1049114778041656326" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -281,7 +207,7 @@
                 <restoreAlways />
                 <enabledHints />
               </inspectorMemento>
-              <node node_ref="r:f022e1da-67d3-47de-b86f-b8f02c2a6f10(deklund.ohml.constraints)/1049114778041863472" />
+              <node node_ref="r:66cd426c-b834-475f-8a3d-d7e3518c2104(deklund.ohml.structure)/1049114778041370663" />
             </state>
           </provider>
         </entry>
@@ -294,11 +220,11 @@
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretX" value="343" />
+                    <property name="caretX" value="79" />
                     <property name="caretXRelative" value="0" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="property_memberIdentifierPolicy">
-                      <node node_reference="r:c264d8fc-71a0-40ee-b88e-8e841ae8030f(deklund.util.units.structure)/1049114778041838661" />
+                    <cellInfo cellId="property_internalValue">
+                      <node node_reference="r:c264d8fc-71a0-40ee-b88e-8e841ae8030f(deklund.util.units.structure)/1049114778041838662" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
@@ -307,7 +233,7 @@
                 <foldable />
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:66cd426c-b834-475f-8a3d-d7e3518c2104(deklund.ohml.structure)/1049114778041326440" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:4642a6fe-9799-46ea-887d-67b821391a7c(deklund.util.units.sandbox)/1049114778041656326" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -315,6 +241,74 @@
                 <restoreAlways />
                 <enabledHints />
               </inspectorMemento>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="mps://node://deklund.util.units/deklund.util.units.structure/BaseUnit">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+              <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretX" value="399" />
+                    <property name="caretXRelative" value="88" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="property_name">
+                      <node node_reference="r:c264d8fc-71a0-40ee-b88e-8e841ae8030f(deklund.util.units.structure)/1049114778041847458" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
+                <errorMarkers />
+                <transactionalProperties />
+                <foldable />
+                <restoreAlways />
+              </memento>
+              <inspectorMemento currentlyEditedNode="r:4642a6fe-9799-46ea-887d-67b821391a7c(deklund.util.units.sandbox)/1049114778041656326" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+                <selectionStack />
+                <errorMarkers />
+                <transactionalProperties />
+                <foldable />
+                <restoreAlways />
+                <enabledHints />
+              </inspectorMemento>
+              <node node_ref="r:c264d8fc-71a0-40ee-b88e-8e841ae8030f(deklund.util.units.structure)/1049114778041847458" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="mps://node://deklund.util.units/deklund.util.units.structure/Ohm">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+              <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretX" value="71" />
+                    <property name="caretXRelative" value="56" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="Constant_ueqr71_c0a">
+                      <node node_reference="r:c264d8fc-71a0-40ee-b88e-8e841ae8030f(deklund.util.units.structure)/961718258607508637" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
+                <errorMarkers />
+                <transactionalProperties />
+                <foldable />
+                <restoreAlways />
+              </memento>
+              <inspectorMemento currentlyEditedNode="r:4642a6fe-9799-46ea-887d-67b821391a7c(deklund.util.units.sandbox)/1049114778041656326" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+                <selectionStack />
+                <errorMarkers />
+                <transactionalProperties />
+                <foldable />
+                <restoreAlways />
+                <enabledHints />
+              </inspectorMemento>
+              <node node_ref="r:c264d8fc-71a0-40ee-b88e-8e841ae8030f(deklund.util.units.structure)/961718258607508637" />
             </state>
           </provider>
         </entry>
@@ -327,11 +321,11 @@
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretX" value="268" />
-                    <property name="caretXRelative" value="105" />
+                    <property name="caretX" value="123" />
+                    <property name="caretXRelative" value="8" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="property_name">
-                      <node node_reference="r:c264d8fc-71a0-40ee-b88e-8e841ae8030f(deklund.util.units.structure)/1049114778041838666" />
+                    <cellInfo cellId="ReadOnlyModelAccessor_abi8e8_a">
+                      <node node_reference="r:b2c81cf2-cd41-4376-96f8-95f18b885308(deklund.util.units.editor)/1049114778041632264" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
@@ -340,7 +334,7 @@
                 <foldable />
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:66cd426c-b834-475f-8a3d-d7e3518c2104(deklund.ohml.structure)/1049114778041326440" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:4642a6fe-9799-46ea-887d-67b821391a7c(deklund.util.units.sandbox)/1049114778041656326" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -348,24 +342,24 @@
                 <restoreAlways />
                 <enabledHints />
               </inspectorMemento>
-              <node node_ref="r:c264d8fc-71a0-40ee-b88e-8e841ae8030f(deklund.util.units.structure)/1049114778041625609" />
+              <node node_ref="r:b2c81cf2-cd41-4376-96f8-95f18b885308(deklund.util.units.editor)/1049114778041632245" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="mps://node://deklund.util.units.sandbox/deklund.util.units.sandbox/UnitsSandbox">
+        <entry file="mps://node://deklund.util.units/deklund.util.units.structure/UnitsSandbox">
           <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+            <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
               <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretX" value="149" />
-                    <property name="caretXRelative" value="45" />
+                    <property name="caretX" value="343" />
+                    <property name="caretXRelative" value="96" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="property_unit">
-                      <node node_reference="r:4642a6fe-9799-46ea-887d-67b821391a7c(deklund.util.units.sandbox)/1049114778041854248" />
+                    <cellInfo cellId="property_name">
+                      <node node_reference="r:b2c81cf2-cd41-4376-96f8-95f18b885308(deklund.util.units.editor)/1049114778041651006" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
@@ -374,7 +368,75 @@
                 <foldable />
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:66cd426c-b834-475f-8a3d-d7e3518c2104(deklund.ohml.structure)/1049114778041326440" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:4642a6fe-9799-46ea-887d-67b821391a7c(deklund.util.units.sandbox)/1049114778041656326" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+                <selectionStack />
+                <errorMarkers />
+                <transactionalProperties />
+                <foldable />
+                <restoreAlways />
+                <enabledHints />
+              </inspectorMemento>
+              <node node_ref="r:b2c81cf2-cd41-4376-96f8-95f18b885308(deklund.util.units.editor)/1049114778041651006" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="mps://node://deklund.util.math/deklund.util.math.structure/MathConcept">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+              <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretX" value="151" />
+                    <property name="caretXRelative" value="0" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="name">
+                      <node node_reference="r:f748be68-59cd-4273-901f-64eec25587b1(deklund.util.math.structure)/1049114778041625073" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
+                <errorMarkers />
+                <transactionalProperties />
+                <foldable />
+                <restoreAlways />
+              </memento>
+              <inspectorMemento currentlyEditedNode="r:4642a6fe-9799-46ea-887d-67b821391a7c(deklund.util.units.sandbox)/1049114778041656326" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+                <selectionStack />
+                <errorMarkers />
+                <transactionalProperties />
+                <foldable />
+                <restoreAlways />
+                <enabledHints />
+              </inspectorMemento>
+              <node node_ref="r:f748be68-59cd-4273-901f-64eec25587b1(deklund.util.math.structure)/1049114778041625073" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="mps://node://deklund.util.units.sandbox/deklund.util.units.sandbox/UnitsSandbox">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+              <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretX" value="31" />
+                    <property name="caretXRelative" value="0" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="empty_concepts">
+                      <node node_reference="r:4642a6fe-9799-46ea-887d-67b821391a7c(deklund.util.units.sandbox)/1049114778041656326" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
+                <errorMarkers />
+                <transactionalProperties />
+                <foldable />
+                <restoreAlways />
+              </memento>
+              <inspectorMemento currentlyEditedNode="r:4642a6fe-9799-46ea-887d-67b821391a7c(deklund.util.units.sandbox)/1049114778041656326" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -408,10 +470,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="134" />
-    <option name="y" value="35" />
-    <option name="width" value="3706" />
-    <option name="height" value="2125" />
+    <option name="x" value="67" />
+    <option name="y" value="25" />
+    <option name="width" value="1853" />
+    <option name="height" value="1055" />
   </component>
   <component name="ProjectPluginManager">
     <option name="pluginsState">
@@ -487,97 +549,21 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="12b43b3d-6758-4e01-a64b-b9ca78ce5219" />
+              <option name="myItemId" value="6237d7d9-2ccf-44fb-984e-6a1dfac95c54" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="6237d7d9-2ccf-44fb-984e-6a1dfac95c54" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="deklund" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:ffde65fe-8374-4822-87f3-4bc607bb5dff(deklund.ohml.sandbox) in IdeaFile[file:///home/david/workspace/ohml/languages/deklund.ohml/sandbox/models/deklund.ohml.sandbox.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="12b43b3d-6758-4e01-a64b-b9ca78ce5219" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="e1771c58-997e-48d1-b36b-872f2d4f3bd5(deklund.util.units)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="27a2b522-2610-408a-ab92-b094842ed001(deklund.ohml)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:a3048550-5318-4baa-ad89-dd606cb31db0(deklund.ohml.typesystem) in IdeaFile[file:///home/david/workspace/ohml/languages/deklund.ohml/models/typesystem.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="12b43b3d-6758-4e01-a64b-b9ca78ce5219" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="deklund" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="27a2b522-2610-408a-ab92-b094842ed001(deklund.ohml)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:66cd426c-b834-475f-8a3d-d7e3518c2104(deklund.ohml.structure) in IdeaFile[file:///home/david/workspace/ohml/languages/deklund.ohml/models/structure.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="27a2b522-2610-408a-ab92-b094842ed001(deklund.ohml)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:7bfd3dc0-d62a-4089-bf33-08df409698e0(deklund.ohml.editor) in IdeaFile[file:///home/david/workspace/ohml/languages/deklund.ohml/models/editor.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -601,11 +587,7 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="27a2b522-2610-408a-ab92-b094842ed001(deklund.ohml)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:e43dd5c8-4570-4934-af6c-27a57c34034f(deklund.ohml.behavior) in IdeaFile[file:///home/david/workspace/ohml/languages/deklund.ohml/models/behavior.mps]" />
+              <option name="myItemId" value="e1771c58-997e-48d1-b36b-872f2d4f3bd5(deklund.util.units)" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -615,7 +597,117 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="27a2b522-2610-408a-ab92-b094842ed001(deklund.ohml)" />
+              <option name="myItemId" value="12b43b3d-6758-4e01-a64b-b9ca78ce5219" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tests" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="deklund" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:36109131-af32-4342-b945-45e5f92f3ea3(deklund.ohml.sandbox@tests) in IdeaFile[file:///home/david/workspace/ohml/languages/deklund.ohml/sandbox/models/deklund.ohml.sandbox@tests.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="12b43b3d-6758-4e01-a64b-b9ca78ce5219" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tests" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="deklund" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="12b43b3d-6758-4e01-a64b-b9ca78ce5219" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="deklund" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="12b43b3d-6758-4e01-a64b-b9ca78ce5219" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="6237d7d9-2ccf-44fb-984e-6a1dfac95c54" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="deklund" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:4642a6fe-9799-46ea-887d-67b821391a7c(deklund.util.units.sandbox) in IdeaFile[file:///home/david/workspace/ohml/languages/deklund.util.units/sandbox/models/deklund.util.units.sandbox.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="12b43b3d-6758-4e01-a64b-b9ca78ce5219" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="deklund" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:ffde65fe-8374-4822-87f3-4bc607bb5dff(deklund.ohml.sandbox) in IdeaFile[file:///home/david/workspace/ohml/languages/deklund.ohml/sandbox/models/deklund.ohml.sandbox.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="e1771c58-997e-48d1-b36b-872f2d4f3bd5(deklund.util.units)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:ac2c05b6-472a-48b0-be6a-cc73eccb0a94(deklund.util.units.behavior) in IdeaFile[file:///home/david/workspace/ohml/languages/deklund.util.units/models/behavior.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -630,6 +722,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="r:c264d8fc-71a0-40ee-b88e-8e841ae8030f(deklund.util.units.structure) in IdeaFile[file:///home/david/workspace/ohml/languages/deklund.util.units/models/structure.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="12b43b3d-6758-4e01-a64b-b9ca78ce5219" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tests" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -644,6 +750,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="r:c264d8fc-71a0-40ee-b88e-8e841ae8030f(deklund.util.units.structure) in IdeaFile[file:///home/david/workspace/ohml/languages/deklund.util.units/models/structure.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="961718258607508637" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </SELECTED>
@@ -672,9 +782,9 @@
     <configuration>$USER_HOME$/.subversion</configuration>
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="25" width="2493" height="1415" extended-state="6" />
+    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27952594" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29275042" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -683,12 +793,12 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Model Checker" order="7" sideWeight="0.49695966" weight="0.32956383" />
+      <window_info active="true" anchor="bottom" id="Model Checker" order="7" sideWeight="0.49695966" visible="true" weight="0.3286334" />
       <window_info anchor="bottom" id="Bookmarks" order="8" />
       <window_info anchor="bottom" id="Migration" order="9" />
       <window_info anchor="bottom" id="Menu Trace" order="10" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32956383" />
-      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5002764" side_tool="true" weight="0.33225632" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5002764" side_tool="true" weight="0.33188722" />
       <window_info anchor="bottom" id="Classpath Explorer" order="13" />
       <window_info anchor="bottom" id="Usages" order="14" weight="0.32956383" />
       <window_info anchor="bottom" id="Node Explorer" order="15" sideWeight="0.49806523" weight="0.32956383" />
@@ -743,9 +853,20 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="editorHistoryManager">
     <entry file="mps://node://jetbrains.mps.baseLanguage/jetbrains.mps.baseLanguage.structure/_FPNumber_String">
@@ -830,38 +951,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="mps://node://deklund.util.math/deklund.util.math.structure/MathConcept">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="268" />
-                <property name="caretXRelative" value="0" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="name">
-                  <node node_reference="r:f748be68-59cd-4273-901f-64eec25587b1(deklund.util.math.structure)/1049114778041625073" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:ffde65fe-8374-4822-87f3-4bc607bb5dff(deklund.ohml.sandbox)/1049114778041353895" saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:f748be68-59cd-4273-901f-64eec25587b1(deklund.util.math.structure)/1049114778041625073" />
-        </state>
-      </provider>
-    </entry>
     <entry file="mps://node://deklund.ohml/deklund.ohml.structure/ResistanceUnit" />
     <entry file="mps://node://deklund.ohml/deklund.ohml.structure/UnitValue" />
     <entry file="mps://node://deklund.util.units/deklund.util.units.structure/Ohm" />
@@ -895,38 +984,6 @@
             <enabledHints />
           </inspectorMemento>
           <node node_ref="r:f748be68-59cd-4273-901f-64eec25587b1(deklund.util.math.structure)/1049114778041648233" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://deklund.util.units/deklund.util.units.structure/UnitsSandbox">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="305" />
-                <property name="caretXRelative" value="120" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_role">
-                  <node node_reference="r:b2c81cf2-cd41-4376-96f8-95f18b885308(deklund.util.units.editor)/1049114778041651087" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:b2c81cf2-cd41-4376-96f8-95f18b885308(deklund.util.units.editor)/1049114778041651087" saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:b2c81cf2-cd41-4376-96f8-95f18b885308(deklund.util.units.editor)/1049114778041651006" />
         </state>
       </provider>
     </entry>
@@ -1070,38 +1127,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="mps://node://deklund.util.units/deklund.util.units.structure/BaseUnit">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="283" />
-                <property name="caretXRelative" value="15" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="name">
-                  <node node_reference="r:c264d8fc-71a0-40ee-b88e-8e841ae8030f(deklund.util.units.structure)/1049114778041847458" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:66cd426c-b834-475f-8a3d-d7e3518c2104(deklund.ohml.structure)/1049114778041855922" saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:c264d8fc-71a0-40ee-b88e-8e841ae8030f(deklund.util.units.structure)/1049114778041847458" />
-        </state>
-      </provider>
-    </entry>
     <entry file="mps://node://jetbrains.mps.lang.smodel/jetbrains.mps.lang.smodel.structure/ConceptRefExpression">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
@@ -1232,37 +1257,6 @@
     </entry>
     <entry file="mps://node://deklund.ohml/deklund.ohml.structure/Resistance" />
     <entry file="mps://node://deklund.ohml/deklund.ohml.structure/&lt;no name&gt;[ConceptDeclaration]" />
-    <entry file="mps://node://deklund.ohml.sandbox/deklund.ohml.sandbox/test circuit">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="283" />
-                <property name="caretXRelative" value="60" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_unit">
-                  <node node_reference="r:ffde65fe-8374-4822-87f3-4bc607bb5dff(deklund.ohml.sandbox)/620581958200569899" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:66cd426c-b834-475f-8a3d-d7e3518c2104(deklund.ohml.structure)/1049114778041326440" saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints />
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
     <entry file="mps://node://deklund.ohml/deklund.ohml.structure/IdealBattery">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
@@ -1270,29 +1264,17 @@
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="149" />
-                <property name="caretXRelative" value="0" />
+                <property name="caretX" value="183" />
+                <property name="caretXRelative" value="152" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Error_a1nfgp_a0">
-                  <node node_reference="r:e43dd5c8-4570-4934-af6c-27a57c34034f(deklund.ohml.behavior)/620581958200569941" />
+                <cellInfo cellId="Constant_cuxtnd_a3b1a">
+                  <node node_reference="r:e43dd5c8-4570-4934-af6c-27a57c34034f(deklund.ohml.behavior)/620581958200569928" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
-            <errorMarkers>
-              <errorMarker text="" propertyCell="false" cellId="Error_a1nfgp_a0">
-                <node node_reference="r:e43dd5c8-4570-4934-af6c-27a57c34034f(deklund.ohml.behavior)/620581958200569941" />
-              </errorMarker>
-              <errorMarker text="" propertyCell="true" cellId="property_name">
-                <node node_reference="r:e43dd5c8-4570-4934-af6c-27a57c34034f(deklund.ohml.behavior)/620581958200569939" />
-              </errorMarker>
-            </errorMarkers>
+            <errorMarkers />
             <transactionalProperties />
             <foldable>
-              <collapsedElement isCollapsed="false">
-                <cellIdElement cellId="Collection_fao2ea_a">
-                  <node node_reference="r:e43dd5c8-4570-4934-af6c-27a57c34034f(deklund.ohml.behavior)/620581958200569939" />
-                </cellIdElement>
-              </collapsedElement>
               <collapsedElement isCollapsed="false">
                 <cellIdElement cellId="Collection_6lfqqa_b0">
                   <node node_reference="r:e43dd5c8-4570-4934-af6c-27a57c34034f(deklund.ohml.behavior)/620581958200569929" />
@@ -1301,7 +1283,7 @@
             </foldable>
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:66cd426c-b834-475f-8a3d-d7e3518c2104(deklund.ohml.structure)/1049114778041326440" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:c264d8fc-71a0-40ee-b88e-8e841ae8030f(deklund.util.units.structure)/1049114778041838662" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -1320,11 +1302,11 @@
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="336" />
-                <property name="caretXRelative" value="120" />
+                <property name="caretX" value="303" />
+                <property name="caretXRelative" value="56" />
                 <property name="sideSelectDirection" value="NONE" />
                 <cellInfo cellId="property_name">
-                  <node node_reference="r:66cd426c-b834-475f-8a3d-d7e3518c2104(deklund.ohml.structure)/1049114778041326440" />
+                  <node node_reference="r:7bfd3dc0-d62a-4089-bf33-08df409698e0(deklund.ohml.editor)/1049114778041318499" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
@@ -1333,7 +1315,7 @@
             <foldable />
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:66cd426c-b834-475f-8a3d-d7e3518c2104(deklund.ohml.structure)/1049114778041326440" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:c264d8fc-71a0-40ee-b88e-8e841ae8030f(deklund.util.units.structure)/1049114778041847458" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -1341,7 +1323,7 @@
             <restoreAlways />
             <enabledHints />
           </inspectorMemento>
-          <node node_ref="r:66cd426c-b834-475f-8a3d-d7e3518c2104(deklund.ohml.structure)/1049114778041318490" />
+          <node node_ref="r:7bfd3dc0-d62a-4089-bf33-08df409698e0(deklund.ohml.editor)/1049114778041318499" />
         </state>
       </provider>
     </entry>
@@ -1352,8 +1334,8 @@
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="403" />
-                <property name="caretXRelative" value="135" />
+                <property name="caretX" value="223" />
+                <property name="caretXRelative" value="72" />
                 <property name="sideSelectDirection" value="NONE" />
                 <cellInfo cellId="name">
                   <node node_reference="r:66cd426c-b834-475f-8a3d-d7e3518c2104(deklund.ohml.structure)/1049114778041353897" />
@@ -1365,7 +1347,7 @@
             <foldable />
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:66cd426c-b834-475f-8a3d-d7e3518c2104(deklund.ohml.structure)/1049114778041326440" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:4642a6fe-9799-46ea-887d-67b821391a7c(deklund.util.units.sandbox)/1049114778041656326" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -1377,18 +1359,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="mps://node://deklund.util.units/deklund.util.units.structure/CoreUnitEnum">
+    <entry file="mps://node://deklund.ohml/deklund.ohml.structure/Resistor">
       <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
           <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="343" />
-                <property name="caretXRelative" value="0" />
+                <property name="caretX" value="179" />
+                <property name="caretXRelative" value="48" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_memberIdentifierPolicy">
-                  <node node_reference="r:c264d8fc-71a0-40ee-b88e-8e841ae8030f(deklund.util.units.structure)/1049114778041838661" />
+                <cellInfo cellId="property_name">
+                  <node node_reference="r:66cd426c-b834-475f-8a3d-d7e3518c2104(deklund.ohml.structure)/1049114778041855922" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
@@ -1397,7 +1379,160 @@
             <foldable />
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:66cd426c-b834-475f-8a3d-d7e3518c2104(deklund.ohml.structure)/1049114778041326440" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:4642a6fe-9799-46ea-887d-67b821391a7c(deklund.util.units.sandbox)/1049114778041656326" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:66cd426c-b834-475f-8a3d-d7e3518c2104(deklund.ohml.structure)/1049114778041370663" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://deklund.util.math/deklund.util.math.structure/MathConcept">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="151" />
+                <property name="caretXRelative" value="0" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="name">
+                  <node node_reference="r:f748be68-59cd-4273-901f-64eec25587b1(deklund.util.math.structure)/1049114778041625073" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:4642a6fe-9799-46ea-887d-67b821391a7c(deklund.util.units.sandbox)/1049114778041656326" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:f748be68-59cd-4273-901f-64eec25587b1(deklund.util.math.structure)/1049114778041625073" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://deklund.util.units/deklund.util.units.structure/&lt;no name&gt;[ConceptDeclaration]">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </inspectorMemento>
+          <node />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://deklund.util.units/deklund.util.units.structure/&lt;no name&gt;[ConceptDeclaration]">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </inspectorMemento>
+          <node />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://deklund.util.units/deklund.util.units.structure/Ohm">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="31" />
+                <property name="caretXRelative" value="0" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="emptyRefPlaceHolder">
+                  <node node_reference="r:c264d8fc-71a0-40ee-b88e-8e841ae8030f(deklund.util.units.structure)/961718258607508637" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:c264d8fc-71a0-40ee-b88e-8e841ae8030f(deklund.util.units.structure)/1049114778041847458" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:c264d8fc-71a0-40ee-b88e-8e841ae8030f(deklund.util.units.structure)/961718258607508637" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://deklund.ohml.sandbox/deklund.ohml.sandbox/test circuit">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellSelection">
+                <property name="caretX" value="0" />
+                <property name="caretXRelative" value="-99" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Collection_51lmgf_a">
+                  <node node_reference="r:ffde65fe-8374-4822-87f3-4bc607bb5dff(deklund.ohml.sandbox)/9089047674616779852" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers>
+              <errorMarker text="ohm" propertyCell="true" cellId="property_unit">
+                <node node_reference="r:ffde65fe-8374-4822-87f3-4bc607bb5dff(deklund.ohml.sandbox)/9089047674616779852" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="true" cellId="property_value">
+                <node node_reference="r:ffde65fe-8374-4822-87f3-4bc607bb5dff(deklund.ohml.sandbox)/961718258607495797" />
+              </errorMarker>
+              <errorMarker text="volt" propertyCell="true" cellId="property_unit">
+                <node node_reference="r:ffde65fe-8374-4822-87f3-4bc607bb5dff(deklund.ohml.sandbox)/961718258607495797" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="true" cellId="property_unit">
+                <node node_reference="r:ffde65fe-8374-4822-87f3-4bc607bb5dff(deklund.ohml.sandbox)/620581958200510953" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="true" cellId="property_unit">
+                <node node_reference="r:ffde65fe-8374-4822-87f3-4bc607bb5dff(deklund.ohml.sandbox)/620581958200569899" />
+              </errorMarker>
+            </errorMarkers>
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:4642a6fe-9799-46ea-887d-67b821391a7c(deklund.util.units.sandbox)/1049114778041656326" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -1415,11 +1550,11 @@
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="268" />
-                <property name="caretXRelative" value="105" />
+                <property name="caretX" value="123" />
+                <property name="caretXRelative" value="8" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_name">
-                  <node node_reference="r:c264d8fc-71a0-40ee-b88e-8e841ae8030f(deklund.util.units.structure)/1049114778041838666" />
+                <cellInfo cellId="ReadOnlyModelAccessor_abi8e8_a">
+                  <node node_reference="r:b2c81cf2-cd41-4376-96f8-95f18b885308(deklund.util.units.editor)/1049114778041632264" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
@@ -1428,7 +1563,7 @@
             <foldable />
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:66cd426c-b834-475f-8a3d-d7e3518c2104(deklund.ohml.structure)/1049114778041326440" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:4642a6fe-9799-46ea-887d-67b821391a7c(deklund.util.units.sandbox)/1049114778041656326" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -1436,7 +1571,166 @@
             <restoreAlways />
             <enabledHints />
           </inspectorMemento>
-          <node node_ref="r:c264d8fc-71a0-40ee-b88e-8e841ae8030f(deklund.util.units.structure)/1049114778041625609" />
+          <node node_ref="r:b2c81cf2-cd41-4376-96f8-95f18b885308(deklund.util.units.editor)/1049114778041632245" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://deklund.util.units/deklund.util.units.structure/CoreUnitEnum">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="79" />
+                <property name="caretXRelative" value="0" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_internalValue">
+                  <node node_reference="r:c264d8fc-71a0-40ee-b88e-8e841ae8030f(deklund.util.units.structure)/1049114778041838662" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:4642a6fe-9799-46ea-887d-67b821391a7c(deklund.util.units.sandbox)/1049114778041656326" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://deklund.util.units/deklund.util.units.structure/UnitsSandbox">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="343" />
+                <property name="caretXRelative" value="96" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name">
+                  <node node_reference="r:b2c81cf2-cd41-4376-96f8-95f18b885308(deklund.util.units.editor)/1049114778041651006" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:4642a6fe-9799-46ea-887d-67b821391a7c(deklund.util.units.sandbox)/1049114778041656326" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:b2c81cf2-cd41-4376-96f8-95f18b885308(deklund.util.units.editor)/1049114778041651006" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://deklund.util.units/deklund.util.units.structure/Ohm">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="31" />
+                <property name="caretXRelative" value="0" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="emptyRefPlaceHolder">
+                  <node node_reference="r:c264d8fc-71a0-40ee-b88e-8e841ae8030f(deklund.util.units.structure)/961718258607508637" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:c264d8fc-71a0-40ee-b88e-8e841ae8030f(deklund.util.units.structure)/961718258607508637" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:c264d8fc-71a0-40ee-b88e-8e841ae8030f(deklund.util.units.structure)/961718258607508637" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://deklund.util.units/deklund.util.units.structure/Ohm">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="71" />
+                <property name="caretXRelative" value="56" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_ueqr71_c0a">
+                  <node node_reference="r:c264d8fc-71a0-40ee-b88e-8e841ae8030f(deklund.util.units.structure)/961718258607508637" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:c264d8fc-71a0-40ee-b88e-8e841ae8030f(deklund.util.units.structure)/1049114778041847458" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:c264d8fc-71a0-40ee-b88e-8e841ae8030f(deklund.util.units.structure)/961718258607508637" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://deklund.util.units/deklund.util.units.structure/BaseUnit">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="399" />
+                <property name="caretXRelative" value="88" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name">
+                  <node node_reference="r:c264d8fc-71a0-40ee-b88e-8e841ae8030f(deklund.util.units.structure)/1049114778041847458" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:4642a6fe-9799-46ea-887d-67b821391a7c(deklund.util.units.sandbox)/1049114778041656326" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:c264d8fc-71a0-40ee-b88e-8e841ae8030f(deklund.util.units.structure)/1049114778041847458" />
         </state>
       </provider>
     </entry>
@@ -1447,57 +1741,20 @@
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="149" />
-                <property name="caretXRelative" value="45" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_unit">
-                  <node node_reference="r:4642a6fe-9799-46ea-887d-67b821391a7c(deklund.util.units.sandbox)/1049114778041854248" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:66cd426c-b834-475f-8a3d-d7e3518c2104(deklund.ohml.structure)/1049114778041326440" saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints />
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://deklund.ohml/deklund.ohml.structure/Resistor">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="284" />
+                <property name="caretX" value="31" />
                 <property name="caretXRelative" value="0" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="empty_canBeAncestor">
-                  <node node_reference="r:f022e1da-67d3-47de-b86f-b8f02c2a6f10(deklund.ohml.constraints)/1049114778041863472" />
+                <cellInfo cellId="empty_concepts">
+                  <node node_reference="r:4642a6fe-9799-46ea-887d-67b821391a7c(deklund.util.units.sandbox)/1049114778041656326" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
             <errorMarkers />
             <transactionalProperties />
-            <foldable>
-              <collapsedElement isCollapsed="false">
-                <cellIdElement cellId="Collection_trik0f_b0">
-                  <node node_reference="r:f022e1da-67d3-47de-b86f-b8f02c2a6f10(deklund.ohml.constraints)/1049114778041896749" />
-                </cellIdElement>
-              </collapsedElement>
-            </foldable>
+            <foldable />
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:66cd426c-b834-475f-8a3d-d7e3518c2104(deklund.ohml.structure)/1049114778041326440" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:4642a6fe-9799-46ea-887d-67b821391a7c(deklund.util.units.sandbox)/1049114778041656326" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -1505,7 +1762,6 @@
             <restoreAlways />
             <enabledHints />
           </inspectorMemento>
-          <node node_ref="r:f022e1da-67d3-47de-b86f-b8f02c2a6f10(deklund.ohml.constraints)/1049114778041863472" />
         </state>
       </provider>
     </entry>

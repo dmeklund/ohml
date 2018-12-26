@@ -17,9 +17,6 @@
       <concept id="1049114778041318490" name="deklund.ohml.structure.Circuit" flags="ng" index="7jcwf">
         <child id="1049114778041326440" name="component" index="7iMWX" />
       </concept>
-      <concept id="620581958200563501" name="deklund.ohml.structure.IdealBattery" flags="ng" index="3c4PsH">
-        <child id="620581958200563529" name="voltage" index="3c4Pt9" />
-      </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -28,22 +25,18 @@
     </language>
     <language id="e1771c58-997e-48d1-b36b-872f2d4f3bd5" name="deklund.util.units">
       <concept id="1049114778041625609" name="deklund.util.units.structure.UnitValue" flags="ng" index="7hTxs">
-        <property id="1049114778041838666" name="unit" index="7hdwv" />
         <property id="1049114778041625610" name="value" index="7hTxv" />
+        <child id="961718258607508640" name="unit" index="B5B$9" />
       </concept>
+      <concept id="961718258607508637" name="deklund.util.units.structure.Ohm" flags="ng" index="B5B$O" />
     </language>
   </registry>
   <node concept="7jcwf" id="Ufd5k9L8qB">
     <property role="TrG5h" value="test circuit" />
-    <node concept="7iZLM" id="ysK034zGBC" role="7iMWX">
-      <node concept="7hTxs" id="ysK034zGBD" role="7gLJB">
+    <node concept="7iZLM" id="PoHq$EjXYM" role="7iMWX">
+      <node concept="7hTxs" id="PoHq$EjXYN" role="7gLJB">
         <property role="7hTxv" value="3.5" />
-      </node>
-    </node>
-    <node concept="3c4PsH" id="ysK034zV0D" role="7iMWX">
-      <node concept="7hTxs" id="ysK034zV0F" role="3c4Pt9">
-        <property role="7hTxv" value="2.2" />
-        <property role="7hdwv" value="volt" />
+        <node concept="B5B$O" id="PoHq$EjXYS" role="B5B$9" />
       </node>
     </node>
   </node>

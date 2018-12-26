@@ -11,6 +11,7 @@ import jetbrains.mps.smodel.runtime.ConceptPresentationBuilder;
 public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase {
   private ConceptPresentation props_AggregateUnit;
   private ConceptPresentation props_BaseUnit;
+  private ConceptPresentation props_Ohm;
   private ConceptPresentation props_UnitValue;
   private ConceptPresentation props_UnitsSandbox;
 
@@ -32,6 +33,13 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_BaseUnit = cpb.create();
         }
         return props_BaseUnit;
+      case LanguageConceptSwitch.Ohm:
+        if (props_Ohm == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("ohm");
+          props_Ohm = cpb.create();
+        }
+        return props_Ohm;
       case LanguageConceptSwitch.UnitValue:
         if (props_UnitValue == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();

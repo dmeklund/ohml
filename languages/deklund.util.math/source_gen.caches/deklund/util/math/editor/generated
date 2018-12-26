@@ -1,3 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="-53376p0jsuflgl5pd5p5ns3tv3og9z4" />
+<product version="3" modelHash="-dxurja0ve28c5azkxotzbi7e3lr18s1">
+  <files names="EditorAspectDescriptorImpl.java:MathSandbox_Editor.java:MathSandbox_EditorBuilder_a.java" />
+</product>
 

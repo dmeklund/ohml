@@ -2,7 +2,7 @@
 <model ref="r:b2c81cf2-cd41-4376-96f8-95f18b885308(deklund.util.units.editor)">
   <persistence version="9" />
   <languages>
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="11" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="12" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -39,6 +39,7 @@
       <concept id="1219418625346" name="jetbrains.mps.lang.editor.structure.IStyleContainer" flags="ng" index="3F0Thp">
         <child id="1219418656006" name="styleItem" index="3F10Kt" />
       </concept>
+      <concept id="1073389882823" name="jetbrains.mps.lang.editor.structure.CellModel_RefNode" flags="sg" stub="730538219795960754" index="3F1sOY" />
       <concept id="1073390211982" name="jetbrains.mps.lang.editor.structure.CellModel_RefNodeList" flags="sg" stub="2794558372793454595" index="3F2HdR" />
       <concept id="1166049232041" name="jetbrains.mps.lang.editor.structure.AbstractComponent" flags="ng" index="1XWOmA">
         <reference id="1166049300910" name="conceptDeclaration" index="1XX52x" />
@@ -51,10 +52,16 @@
       <node concept="3F0A7n" id="Ufd5k9Mco8" role="3EZMnx">
         <ref role="1NtTu8" to="4rrt:Ufd5k9MaKa" resolve="value" />
       </node>
-      <node concept="3F0A7n" id="Ufd5k9MZAA" role="3EZMnx">
-        <ref role="1NtTu8" to="4rrt:Ufd5k9MYLa" resolve="unit" />
-      </node>
       <node concept="l2Vlx" id="Ufd5k9McnU" role="2iSdaV" />
+      <node concept="3F1sOY" id="PoHq$EjGMG" role="3EZMnx">
+        <ref role="1NtTu8" to="4rrt:PoHq$EjGMw" resolve="unit" />
+        <node concept="lj46D" id="PoHq$EjGMH" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="ljvvj" id="PoHq$EjGMI" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
     </node>
   </node>
   <node concept="24kQdi" id="Ufd5k9MgWY">

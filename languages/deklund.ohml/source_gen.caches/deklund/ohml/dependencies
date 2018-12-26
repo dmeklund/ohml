@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dependenciesRoot>
-  <dependency className="deklund.ohml.Language" file="Language.java">
+  <dependency className="deklund.ohml.Language">
     <classNode dependClassName="deklund.ohml.behavior.BehaviorAspectDescriptor" />
     <classNode dependClassName="deklund.ohml.constraints.ConstraintsAspectDescriptor" />
     <classNode dependClassName="deklund.ohml.editor.EditorAspectDescriptorImpl" />
